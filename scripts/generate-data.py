@@ -290,7 +290,7 @@ def build_data() -> dict:
             "effectiveDate": effective,
             "source": "shuttle-data.xlsx",
             "generatedBy": "scripts/generate-data.py",
-            "geocoding": "automatic",
+            "geocoding": "precomputed-in-maintenance",
         },
         "locations": locations,
         "routes": [routes_by_id[rid] for rid in route_order],

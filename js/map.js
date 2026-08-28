@@ -26,7 +26,7 @@
     markerIcon(index) {
       return L.divIcon({
         className: 'leaflet-div-icon',
-        html: `<div class="bus-marker auto"><span>${index}</span></div>`,
+        html: `<div class="bus-marker"><span>${index}</span></div>`,
         iconSize: [30, 30],
         iconAnchor: [15, 28],
         popupAnchor: [0, -27]
@@ -44,7 +44,7 @@
         marker.bindPopup(`
           <div class="popup-title">${escapeHtml(item.stop?.displayName || item.locationId)}</div>
           <div class="popup-meta">
-            ${escapeHtml(item.time)} · ${item.locationKind === 'excel' ? 'Excel 座標' : '自動定位'}<br>
+            ${escapeHtml(item.time)}<br>
             ${item.stop?.landmark ? escapeHtml(item.stop.landmark) : ''}
           </div>
           <a class="popup-link" href="${nav}" target="_blank" rel="noopener noreferrer">開啟導航 →</a>

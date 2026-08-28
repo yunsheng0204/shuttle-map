@@ -13,9 +13,9 @@
     <div>
       <p class="eyebrow">Shuttle Bus Map · Prototype</p>
       <h1>公司交通車路線圖</h1>
-      <p class="subtitle">目前實作：上班車第 1–20 線｜Excel 統一維護｜自動地址定位</p>
+      <p class="subtitle">目前實作：上班車第 1–20 線｜Excel 統一維護｜座標於資料更新時自動建立</p>
     </div>
-    <div class="top-note">路線與站點由 Excel 統一維護；未填座標時會依地址自動定位。</div>
+    <div class="top-note">網站只讀取 Excel 轉出的資料，不會在員工瀏覽時呼叫地址定位服務。</div>
   </header>
 
   <main class="layout">
@@ -41,10 +41,6 @@
           <div class="route-kicker" id="routeKicker">上班車</div>
           <h2 id="routeTitle">讀取中…</h2>
           <p class="route-description" id="routeDescription"></p>
-        </div>
-        <div class="legend" aria-label="定位狀態">
-          <span><i class="dot auto"></i>已定位</span>
-          <span><i class="dot missing"></i>定位失敗</span>
         </div>
       </section>
 
@@ -84,7 +80,6 @@
         </div>
         <div class="stop-landmark"></div>
         <div class="stop-source"></div>
-        <div class="stop-status"></div>
       </div>
       <a class="navigate-link" target="_blank" rel="noopener noreferrer">導航</a>
     </article>

@@ -1,4 +1,4 @@
-# 公司交通車路線圖（Excel 管理版）
+# 公司交通車路線圖（Excel 管理 + 維護端自動定位）
 
 目前包含 PDF 的 **上班車第 1–20 線**。
 
@@ -10,13 +10,21 @@
 data/shuttle-data.xlsx
 ```
 
-不要手動維護 `data/shuttle-data.json`。JSON 是網站使用的產物，會由：
+網站本身 **不會在員工瀏覽時做地址定位**。定位改成資料維護流程的一部分：
 
 ```text
-scripts/generate-data.py
+Excel
+  ↓ update-data.bat
+缺少座標的站點自動定位
+  ↓
+成功座標寫回 Excel
+  ↓
+產生 shuttle-data.json
+  ↓
+網站直接讀座標顯示 Marker
 ```
 
-自動從 Excel 產生。
+因此使用者不會再看到「自動定位中 / 定位失敗」的站點徽章。
 
 ---
 
@@ -49,9 +57,13 @@ scripts/generate-data.py
 | 顯示名稱 | 網頁顯示名稱 |
 | 候車地標 | 例如玉山銀行、捷運出口 |
 | PDF原文 | 保留 PDF 原始說明 |
-| 定位搜尋文字 | 自動定位實際送出的地址 |
-| 緯度 / 經度 | 選填；有填時網站直接使用，不再查地址 |
+| 定位搜尋文字 | 自動定位實際送出的地址，例如「新竹市民族路34號」 |
+| 緯度 / 經度 | 由更新程式自動寫回；已有座標就不會重複查詢 |
 | 備註 | 自由備註 |
+| 定位狀態 | 更新程式自動寫入「已定位」或失敗原因 |
+| 最後定位時間 | 更新程式自動寫入最後一次嘗試時間 |
+
+如果某站地址改了，請修改「定位搜尋文字」，並把該列的 **緯度 / 經度清空**，再執行 `update-data.bat`，程式就會重新定位。
 
 ### 3. RouteStops
 
@@ -70,82 +82,109 @@ scripts/generate-data.py
 
 ## 平常維護流程
 
-### 方法 A：Windows 最簡單
-
 1. 開啟 `data/shuttle-data.xlsx`
 2. 修改 Routes / Stops / RouteStops
 3. 儲存 Excel
 4. 雙擊 `update-data.bat`
-5. 程式會檢查資料並重新產生 `data/shuttle-data.json`
+5. 程式只查詢 **緯度、經度為空白** 的啟用站點
+6. 成功後座標直接寫回 Excel
+7. 自動產生 `data/shuttle-data.json`
+8. 確認完成後再 `git add / commit / push`
 
-若 RouteID、StopID 填錯或順序重複，轉換程式會直接顯示錯誤，不會默默產生壞資料。
+第一次執行若電腦沒有 `openpyxl`，`update-data.bat` 會嘗試用 pip 安裝。
 
-### 方法 B：直接啟動網站
+### 更新畫面示意
 
-雙擊：
+```text
+待定位：6 個站點
+✓ S001 中華路三段9號：24.xxxxxx, 120.xxxxxx
+✓ S002 民族路34號：24.xxxxxx, 120.xxxxxx
+✗ S003 南大路81號：找不到結果
+
+定位完成：成功 2、失敗 1、實際送出查詢 3
+成功座標已寫回 Excel；下次不會重複查詢這些站點。
+```
+
+定位失敗不會阻止 JSON 產生。該站在網站上暫時沒有 Marker，但「導航」仍會把「定位搜尋文字」交給 Google Maps。
+
+---
+
+## 本機啟動網站
+
+`start.bat` **只負責 Excel → JSON + 啟動 Web Server，不會重新定位**。
 
 ```text
 start.bat
-```
-
-它會先執行 Excel → JSON，再啟動：
-
-```text
+  ↓
 http://localhost:8080
 ```
 
+有修改地點資料時，先執行 `update-data.bat`；單純看網站時執行 `start.bat` 即可。
+
 ---
 
-## 定位邏輯
+## 地址定位服務
 
-網站的優先順序是：
+目前 `scripts/geocode-stops.py` 預設使用 OpenStreetMap Foundation 的公開 Nominatim 服務。
+
+官方使用政策：
+
+https://operations.osmfoundation.org/policies/nominatim/
+
+程式已遵守主要限制：
+
+- 單執行緒
+- 請求間隔至少約 1.1 秒（不超過 1 request/second）
+- 使用可辨識的 User-Agent
+- 成功結果寫回 Excel 作為快取，不重複查詢
+- GitHub Actions **不執行 geocoding**
+
+可用環境變數更換定位服務，不必改程式：
 
 ```text
-Stops 內已填緯度/經度
-        ↓ 沒填
-瀏覽器已存在的定位快取
-        ↓ 沒有
-依「定位搜尋文字」呼叫 OpenStreetMap Nominatim
-        ↓ 失敗
-Google Maps 仍可用地址文字導航
+SHUTTLE_GEOCODER_URL
 ```
 
-因此平常只要把地址填在 Excel 的「定位搜尋文字」即可。
+也可提供聯絡資訊到 User-Agent：
+
+```text
+SHUTTLE_GEOCODER_CONTACT
+```
+
+> 注意：Nominatim 官方政策要求不要提交個人資料或其他機密資料。這份原始交通車 PDF 本身標示僅供內部使用；正式環境若公司政策不允許把站點搜尋文字送到公開服務，請把 `SHUTTLE_GEOCODER_URL` 改成公司允許的 geocoding 服務或內部 Nominatim。
 
 ---
 
-## GitHub Pages 自動部署
+## GitHub Pages
 
-專案已包含：
+專案內含：
 
 ```text
 .github/workflows/deploy-pages.yml
 ```
 
-每次 push 到 `main`：
+GitHub Actions 的流程是：
 
 ```text
-shuttle-data.xlsx
-      ↓
-GitHub Actions
-      ↓
+已經包含座標的 shuttle-data.xlsx
+        ↓
 generate-data.py
-      ↓
+        ↓
 shuttle-data.json
-      ↓
+        ↓
 GitHub Pages
 ```
 
-第一次設定 GitHub Repository 時：
+**Actions 不會自動對外查地址。** 所以建議 push 前先在本機執行 `update-data.bat`，讓新站點座標寫回 Excel。
 
-1. Repository → **Settings**
-2. **Pages**
-3. Source 選擇 **GitHub Actions**
+第一次設定 Repository：
+
+1. Settings
+2. Pages
+3. Source 選 **GitHub Actions**
 4. Push 到 `main`
 
-之後只要更新 Excel 並 push，就會自動重新產生資料與部署網頁。
-
-> 注意：原始 PDF 標示僅供內部使用。若 Repository 或 Pages 是公開的，交通車路線與站點資料也可能對外公開；正式使用前請依公司政策決定部署位置與存取權限。
+> 若 Repository / Pages 是公開的，路線與站點資料也可能對外公開。正式使用前請依公司政策設定部署位置與存取權限。
 
 ---
 
@@ -160,10 +199,12 @@ shuttle-map-20/
 │   ├── shuttle-data.xlsx      ← 唯一人工維護資料
 │   └── shuttle-data.json      ← 自動產生
 ├── scripts/
-│   └── generate-data.py
+│   ├── geocode-stops.py       ← 缺座標時自動定位並寫回 Excel
+│   └── generate-data.py       ← Excel → JSON
 ├── .github/
 │   └── workflows/
 │       └── deploy-pages.yml
+├── requirements.txt
 ├── update-data.bat
 └── start.bat
 ```

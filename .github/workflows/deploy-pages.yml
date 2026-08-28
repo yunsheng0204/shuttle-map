@@ -26,6 +26,8 @@ jobs:
         with:
           python-version: "3.12"
 
+      # Important: GitHub Actions does NOT geocode addresses. Coordinates are
+      # produced locally by update-data.bat and stored in the Excel workbook.
       - name: Generate JSON from Excel
         run: python scripts/generate-data.py
 

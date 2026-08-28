@@ -4,7 +4,7 @@
     "effectiveDate": "2026-06-23",
     "source": "shuttle-data.xlsx",
     "generatedBy": "scripts/generate-data.py",
-    "geocoding": "automatic"
+    "geocoding": "precomputed-in-maintenance"
   },
   "locations": {
     "S001": {
