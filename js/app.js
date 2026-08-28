@@ -17,15 +17,27 @@
     data: null,
     routes: [],
     locations: {},
-    selectedRouteId: null
+    selectedRouteId: null,
+    mapReady: false
   };
 
   try {
-    state.data = await fetchJson('./data/shuttle-data.json');
-    state.routes = state.data.routes || [];
-    state.locations = state.data.locations || {};
+    const data = await fetchJson('./data/shuttle-data.json');
+    state.data = data;
+    state.routes = data.routes || [];
+    state.locations = data.locations || {};
+
+    try {
+      const apiKey = await loadGoogleMapsApiKey();
+      await shuttleMap.initialize(apiKey);
+      state.mapReady = true;
+    } catch (mapError) {
+      console.error(mapError);
+      shuttleMap.setStatus(`${mapError.message}；站點清單與地址導航仍可使用。`);
+    }
+
     renderRouteList(state.routes);
-    if (state.routes.length) selectRoute(state.routes[0].id);
+    if (state.routes.length) await selectRoute(state.routes[0].id);
   } catch (error) {
     console.error(error);
     shuttleMap.setStatus('資料讀取失敗。請用 HTTP server 或 GitHub Pages 開啟本頁。');
@@ -66,12 +78,12 @@
       node.querySelector('.route-name').textContent = route.name;
       node.querySelector('.route-stop-count').textContent = `${route.stops.length} 站`;
       if (route.id === state.selectedRouteId) node.classList.add('active');
-      node.addEventListener('click', () => selectRoute(route.id));
+      node.addEventListener('click', () => void selectRoute(route.id));
       el.routeList.appendChild(node);
     });
   }
 
-  function selectRoute(routeId) {
+  async function selectRoute(routeId) {
     state.selectedRouteId = routeId;
     document.querySelectorAll('.route-button').forEach(btn => {
       btn.classList.toggle('active', btn.dataset.routeId === routeId);
@@ -86,28 +98,25 @@
     el.routeDescription.textContent = route.routeDescription;
     el.stopCount.textContent = `${route.stops.length} 個停靠點`;
 
-    const items = route.stops.map(entry => {
-      const stop = state.locations[entry.locationId];
-      const lat = Number(stop?.lat);
-      const lng = Number(stop?.lng);
-      return {
-        ...entry,
-        stop,
-        lat: Number.isFinite(lat) ? lat : null,
-        lng: Number.isFinite(lng) ? lng : null
-      };
-    });
+    const items = route.stops.map(entry => ({
+      ...entry,
+      stop: state.locations[entry.locationId],
+      lat: null,
+      lng: null
+    }));
 
     renderStopCards(items);
-    shuttleMap.renderStops(items);
 
-    const located = items.filter(item => Number.isFinite(item.lat) && Number.isFinite(item.lng)).length;
-    if (located === items.length) {
-      shuttleMap.setStatus(`第 ${route.number} 線：${items.length} 個站點已載入地圖。`);
-    } else if (located > 0) {
-      shuttleMap.setStatus(`第 ${route.number} 線：目前顯示 ${located}/${items.length} 個地圖站點；其餘仍可用地址導航。`);
+    if (!state.mapReady) return;
+    const result = await shuttleMap.renderStops(items);
+    if (result?.cancelled || state.selectedRouteId !== routeId) return;
+
+    if (result.located === result.total) {
+      shuttleMap.setStatus(`第 ${route.number} 線：${result.total} 個站點已由 Google Maps 自動定位。`);
+    } else if (result.located > 0) {
+      shuttleMap.setStatus(`第 ${route.number} 線：Google Maps 已定位 ${result.located}/${result.total} 個站點；其餘仍可用地址導航。`);
     } else {
-      shuttleMap.setStatus(`第 ${route.number} 線：目前尚無地圖座標；各站仍可用地址導航。`);
+      shuttleMap.setStatus(`第 ${route.number} 線：Google Maps 未找到站點座標；仍可使用地址導航。`);
     }
   }
 
@@ -123,11 +132,28 @@
 
       const nav = node.querySelector('.navigate-link');
       nav.href = shuttleGoogleMapsUrl(item);
-      nav.title = Number.isFinite(item.lat) && Number.isFinite(item.lng)
-        ? '使用站點座標導航'
-        : '使用地址文字開啟 Google Maps';
+      nav.title = '使用地址文字開啟 Google Maps 導航';
       el.stopList.appendChild(node);
     });
+  }
+
+  async function loadGoogleMapsApiKey() {
+    const candidates = [
+      './config/google-maps-config.local.json',
+      './config/google-maps-config.json'
+    ];
+
+    for (const url of candidates) {
+      try {
+        const response = await fetch(url, { cache: 'no-store' });
+        if (!response.ok) continue;
+        const config = await response.json();
+        if (config.apiKey && !String(config.apiKey).includes('YOUR_')) return String(config.apiKey).trim();
+      } catch (_error) {
+        // Try the next configuration source.
+      }
+    }
+    throw new Error('尚未設定 Google Maps API Key');
   }
 
   async function fetchJson(url) {

@@ -157,7 +157,6 @@ h2 { margin: 0; font-size: clamp(25px, 3vw, 36px); }
 }
 .bus-marker span { transform: rotate(45deg); color: #fff; font-size: 11px; font-weight: 800; }
 .bus-marker { background: var(--accent); }
-.leaflet-div-icon { background: transparent; border: 0; }
 .popup-title { font-weight: 800; margin-bottom: 4px; }
 .popup-meta { color: #5f6d67; font-size: 12px; line-height: 1.5; }
 .popup-link { display: inline-block; margin-top: 8px; font-weight: 700; color: #116b4b; text-decoration: none; }

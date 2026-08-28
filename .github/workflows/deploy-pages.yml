@@ -26,17 +26,24 @@ jobs:
         with:
           python-version: "3.12"
 
-      # Important: GitHub Actions does NOT geocode addresses. Coordinates are
-      # produced locally by update-data.bat and stored in the Excel workbook.
       - name: Generate JSON from Excel
         run: python scripts/generate-data.py
 
       - name: Build static site
+        env:
+          GOOGLE_MAPS_BROWSER_KEY: ${{ secrets.GOOGLE_MAPS_BROWSER_KEY }}
         run: |
-          mkdir -p _site/data
+          mkdir -p _site/data _site/config
           cp index.html _site/
           cp -R css js _site/
           cp data/shuttle-data.json _site/data/
+          python - <<'PY'
+          import json, os, pathlib
+          key = os.environ.get("GOOGLE_MAPS_BROWSER_KEY", "").strip()
+          pathlib.Path("_site/config/google-maps-config.json").write_text(
+              json.dumps({"apiKey": key}, ensure_ascii=False), encoding="utf-8"
+          )
+          PY
 
       - name: Configure Pages
         uses: actions/configure-pages@v5

@@ -149,14 +149,6 @@ def text(value) -> str:
     return str(value).strip()
 
 
-def number_or_none(value):
-    if value in (None, ""):
-        return None
-    try:
-        return float(value)
-    except (TypeError, ValueError):
-        return None
-
 
 def build_data() -> dict:
     if not XLSX_PATH.exists():
@@ -221,14 +213,6 @@ def build_data() -> dict:
         if sid in locations:
             errors.append(f"Stops 第 {row_num} 列：StopID 重複 {sid}")
             continue
-        lat = number_or_none(row.get("緯度"))
-        lng = number_or_none(row.get("經度"))
-        if (lat is None) != (lng is None):
-            errors.append(f"Stops 第 {row_num} 列：{sid} 緯度與經度必須同時填寫或同時留白")
-        if lat is not None and not (-90 <= lat <= 90):
-            errors.append(f"Stops 第 {row_num} 列：{sid} 緯度超出範圍")
-        if lng is not None and not (-180 <= lng <= 180):
-            errors.append(f"Stops 第 {row_num} 列：{sid} 經度超出範圍")
         loc = {
             "id": sid,
             "displayName": text(row.get("顯示名稱")),
@@ -237,9 +221,6 @@ def build_data() -> dict:
             "geocodeQuery": text(row.get("定位搜尋文字")),
             "notes": text(row.get("備註")),
         }
-        if lat is not None and lng is not None:
-            loc["lat"] = lat
-            loc["lng"] = lng
         locations[sid] = loc
 
     grouped = defaultdict(list)
