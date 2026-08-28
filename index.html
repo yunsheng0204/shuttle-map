@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>公司交通車路線圖</title>
+  <link rel="preconnect" href="https://unpkg.com" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Shuttle Bus Map · Prototype</p>
+      <h1>公司交通車路線圖</h1>
+      <p class="subtitle">目前實作：上班車第 1–20 線｜Excel 統一維護｜自動地址定位</p>
+    </div>
+    <div class="top-note">路線與站點由 Excel 統一維護；未填座標時會依地址自動定位。</div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar" aria-label="路線清單">
+      <div class="vehicle-tabs" role="tablist" aria-label="交通車類型">
+        <button class="tab active" type="button" role="tab" aria-selected="true">上班車</button>
+        <button class="tab" type="button" disabled title="下一階段實作">下班車</button>
+        <button class="tab" type="button" disabled title="下一階段實作">加班車</button>
+      </div>
+
+      <label class="search-label" for="routeSearch">搜尋路線</label>
+      <input id="routeSearch" class="search-input" type="search" placeholder="例如：新竹、基隆、20" autocomplete="off" />
+
+      <div class="route-summary">
+        <strong id="routeCount">20</strong> 條上班路線
+      </div>
+      <nav id="routeList" class="route-list" aria-live="polite"></nav>
+    </aside>
+
+    <section class="content">
+      <section class="route-head">
+        <div>
+          <div class="route-kicker" id="routeKicker">上班車</div>
+          <h2 id="routeTitle">讀取中…</h2>
+          <p class="route-description" id="routeDescription"></p>
+        </div>
+        <div class="legend" aria-label="定位狀態">
+          <span><i class="dot auto"></i>已定位</span>
+          <span><i class="dot missing"></i>定位失敗</span>
+        </div>
+      </section>
+
+      <div class="map-wrap">
+        <div id="map" aria-label="交通車站點地圖"></div>
+        <div id="mapStatus" class="map-status" aria-live="polite">準備地圖…</div>
+      </div>
+
+      <section class="stops-section">
+        <div class="section-title-row">
+          <div>
+            <p class="section-eyebrow">Stops</p>
+            <h3>停靠站</h3>
+          </div>
+          <div id="stopCount" class="stop-count"></div>
+        </div>
+        <div id="stopList" class="stop-list" aria-live="polite"></div>
+      </section>
+    </section>
+  </main>
+
+  <template id="routeButtonTemplate">
+    <button class="route-button" type="button">
+      <span class="route-number"></span>
+      <span class="route-name"></span>
+      <span class="route-stop-count"></span>
+    </button>
+  </template>
+
+  <template id="stopTemplate">
+    <article class="stop-card">
+      <div class="stop-order"></div>
+      <div class="stop-main">
+        <div class="stop-line-one">
+          <time class="stop-time"></time>
+          <strong class="stop-name"></strong>
+        </div>
+        <div class="stop-landmark"></div>
+        <div class="stop-source"></div>
+        <div class="stop-status"></div>
+      </div>
+      <a class="navigate-link" target="_blank" rel="noopener noreferrer">導航</a>
+    </article>
+  </template>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="./js/map.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>
