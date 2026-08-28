@@ -149,6 +149,23 @@ def text(value) -> str:
     return str(value).strip()
 
 
+def number(value):
+    if value is None or value == "":
+        return None
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return None
+
+
+def bool_value(value, default=False) -> bool:
+    if value is None or value == "":
+        return default
+    if isinstance(value, bool):
+        return value
+    return str(value).strip().lower() not in {"false", "0", "否", "n", "no"}
+
+
 
 def build_data() -> dict:
     if not XLSX_PATH.exists():
@@ -213,6 +230,15 @@ def build_data() -> dict:
         if sid in locations:
             errors.append(f"Stops 第 {row_num} 列：StopID 重複 {sid}")
             continue
+        lat = number(row.get("緯度"))
+        lng = number(row.get("經度"))
+        if (lat is None) != (lng is None):
+            errors.append(f"Stops 第 {row_num} 列：緯度、經度必須同時填寫")
+        if lat is not None and not (-90 <= lat <= 90):
+            errors.append(f"Stops 第 {row_num} 列：緯度超出範圍 {lat}")
+        if lng is not None and not (-180 <= lng <= 180):
+            errors.append(f"Stops 第 {row_num} 列：經度超出範圍 {lng}")
+
         loc = {
             "id": sid,
             "displayName": text(row.get("顯示名稱")),
@@ -220,7 +246,15 @@ def build_data() -> dict:
             "sourceText": text(row.get("PDF原文")),
             "geocodeQuery": text(row.get("定位搜尋文字")),
             "notes": text(row.get("備註")),
+            "locationMethod": text(row.get("定位方式")),
+            "needsManualReview": bool_value(row.get("需人工確認"), False),
+            "locationNotes": text(row.get("定位備註")),
+            "coordinateSource": text(row.get("座標來源")),
+            "coordinateConfidence": text(row.get("座標信心")),
         }
+        if lat is not None and lng is not None:
+            loc["lat"] = lat
+            loc["lng"] = lng
         locations[sid] = loc
 
     grouped = defaultdict(list)
@@ -271,7 +305,7 @@ def build_data() -> dict:
             "effectiveDate": effective,
             "source": "shuttle-data.xlsx",
             "generatedBy": "scripts/generate-data.py",
-            "geocoding": "precomputed-in-maintenance",
+            "geocoding": "excel-coordinates-first-google-fallback",
         },
         "locations": locations,
         "routes": [routes_by_id[rid] for rid in route_order],

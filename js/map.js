@@ -80,10 +80,15 @@
       this.setStatus(`正在使用 Google Maps 定位 ${items.length} 個站點…`);
 
       let failed = 0;
+      let precomputed = 0;
+      let geocoded = 0;
       for (const item of items) {
         if (token !== this.renderToken) return { cancelled: true };
 
-        if (Number.isFinite(item.lat) && Number.isFinite(item.lng)) continue;
+        if (Number.isFinite(item.lat) && Number.isFinite(item.lng)) {
+          precomputed += 1;
+          continue;
+        }
         const query = item.stop?.geocodeQuery || item.stop?.displayName || '';
         if (!query) {
           failed += 1;
@@ -95,6 +100,7 @@
           if (point) {
             item.lat = point.lat;
             item.lng = point.lng;
+            geocoded += 1;
           } else {
             failed += 1;
           }
@@ -166,7 +172,7 @@
         this.map.setZoom(10);
       }
 
-      return { located: points.length, total: items.length, failed };
+      return { located: points.length, total: items.length, failed, precomputed, geocoded };
     }
 
     async geocodeAddress(query) {

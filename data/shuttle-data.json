@@ -4,7 +4,7 @@
     "effectiveDate": "2026-06-23",
     "source": "shuttle-data.xlsx",
     "generatedBy": "scripts/generate-data.py",
-    "geocoding": "precomputed-in-maintenance"
+    "geocoding": "excel-coordinates-first-google-fallback"
   },
   "locations": {
     "S001": {
@@ -13,7 +13,12 @@
       "landmark": "國泰人壽 / 全家對面",
       "sourceText": "中華路三段9號(國泰人壽/全家對面)",
       "geocodeQuery": "新竹市中華路三段9號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S002": {
       "id": "S002",
@@ -21,7 +26,12 @@
       "landmark": "玉山銀行",
       "sourceText": "民族路34號(玉山銀行)",
       "geocodeQuery": "新竹市民族路34號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S003": {
       "id": "S003",
@@ -29,7 +39,12 @@
       "landmark": "南大路 / 東大路一段口",
       "sourceText": "南大路81號(南大路/東大路一段口)",
       "geocodeQuery": "新竹市南大路81號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S004": {
       "id": "S004",
@@ -37,7 +52,12 @@
       "landmark": "工研院光復院區公車站",
       "sourceText": "光復路二段321號(工研院光復院區公車站)",
       "geocodeQuery": "新竹市光復路二段321號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S005": {
       "id": "S005",
@@ -45,7 +65,12 @@
       "landmark": "清大公車站",
       "sourceText": "光復路二段101號(清大公車站)",
       "geocodeQuery": "新竹市光復路二段101號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S006": {
       "id": "S006",
@@ -53,7 +78,12 @@
       "landmark": "經濟部訓練所門口旁樹蔭下",
       "sourceText": "光復路二段3號(經濟部訓練所門口旁樹蔭下)",
       "geocodeQuery": "新竹市光復路二段3號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S007": {
       "id": "S007",
@@ -61,7 +91,12 @@
       "landmark": "勇和興輪胎行",
       "sourceText": "勇和興輪胎行(南興路一段468號)",
       "geocodeQuery": "桃園市龍潭區南興路一段468號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S008": {
       "id": "S008",
@@ -69,7 +104,12 @@
       "landmark": "台灣家具",
       "sourceText": "台灣家具(大昌路2段100號)",
       "geocodeQuery": "桃園市龍潭區大昌路二段100號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S009": {
       "id": "S009",
@@ -77,7 +117,12 @@
       "landmark": "天香回味餐廳",
       "sourceText": "蘆竹新南路一段328號(天香回味餐廳)",
       "geocodeQuery": "桃園市蘆竹區新南路一段328號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S010": {
       "id": "S010",
@@ -85,7 +130,12 @@
       "landmark": "三義汽車保養",
       "sourceText": "中豐路南勢二段291號(三義汽車保養)",
       "geocodeQuery": "桃園市平鎮區中豐路南勢二段291號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S011": {
       "id": "S011",
@@ -93,7 +143,12 @@
       "landmark": "圖書館",
       "sourceText": "平鎮區環南路三段88號(圖書館)",
       "geocodeQuery": "桃園市平鎮區環南路三段88號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S012": {
       "id": "S012",
@@ -101,7 +156,12 @@
       "landmark": "頂天國際旅行社 / 鄰中壢後火車站",
       "sourceText": "新興路86號(頂天國際旅行社/鄰中壢後火車站)",
       "geocodeQuery": "桃園市中壢區新興路86號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S013": {
       "id": "S013",
@@ -109,7 +169,12 @@
       "landmark": "大眾自助餐",
       "sourceText": "延平路二段231號(大眾自助餐)",
       "geocodeQuery": "桃園市平鎮區延平路二段231號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S014": {
       "id": "S014",
@@ -117,7 +182,12 @@
       "landmark": "一品堂中醫診所 / 陽明醫院對面",
       "sourceText": "延平路二段87號(一品堂中醫診所/陽明醫院對面)",
       "geocodeQuery": "桃園市平鎮區延平路二段87號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S015": {
       "id": "S015",
@@ -125,7 +195,12 @@
       "landmark": "上海銀行",
       "sourceText": "延平路551號(上海銀行)",
       "geocodeQuery": "桃園市中壢區延平路551號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S016": {
       "id": "S016",
@@ -133,7 +208,12 @@
       "landmark": "豐田汽車",
       "sourceText": "中園路162號(豐田汽車)",
       "geocodeQuery": "桃園市中壢區中園路162號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S017": {
       "id": "S017",
@@ -141,7 +221,12 @@
       "landmark": "",
       "sourceText": "東園路38-2號",
       "geocodeQuery": "桃園市中壢區東園路38-2號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S018": {
       "id": "S018",
@@ -149,7 +234,12 @@
       "landmark": "新竹縣體育場地2號門",
       "sourceText": "自強一路/福興路口(新竹縣體育場地2號門)",
       "geocodeQuery": "新竹縣竹北市自強一路 福興路口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S019": {
       "id": "S019",
@@ -157,7 +247,12 @@
       "landmark": "保順汽車保養廠",
       "sourceText": "中山路694號(保順汽車保養廠)",
       "geocodeQuery": "桃園市桃園區中山路694號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S020": {
       "id": "S020",
@@ -165,7 +260,12 @@
       "landmark": "華盛窗簾傢飾",
       "sourceText": "中山路1076號(華盛窗簾傢飾)",
       "geocodeQuery": "桃園市桃園區中山路1076號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S021": {
       "id": "S021",
@@ -173,7 +273,12 @@
       "landmark": "和風飯糰屋",
       "sourceText": "龍安街56號(和風飯糰屋)",
       "geocodeQuery": "桃園市桃園區龍安街56號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S022": {
       "id": "S022",
@@ -181,7 +286,12 @@
       "landmark": "做點心過生活店 / 台電對面",
       "sourceText": "復興路345號(做點心過生活店/台電對面)",
       "geocodeQuery": "桃園市桃園區復興路345號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S023": {
       "id": "S023",
@@ -189,7 +299,12 @@
       "landmark": "巨匠電腦 / 民權路6號",
       "sourceText": "巨匠電腦(復興路民權路口/民權路6號)",
       "geocodeQuery": "桃園市桃園區民權路6號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S024": {
       "id": "S024",
@@ -197,7 +312,12 @@
       "landmark": "空間樂園社區公車站",
       "sourceText": "空間樂園社區公車站(文化二路一段356號對面)",
       "geocodeQuery": "新北市林口區文化二路一段356號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S025": {
       "id": "S025",
@@ -205,7 +325,12 @@
       "landmark": "燦坤3C 林口文化店",
       "sourceText": "燦坤3C 林口文化店(新北市林口區文化二路一段269號)",
       "geocodeQuery": "新北市林口區文化二路一段269號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S026": {
       "id": "S026",
@@ -213,7 +338,12 @@
       "landmark": "玉山銀行",
       "sourceText": "復興一路230號(玉山銀行)",
       "geocodeQuery": "桃園市龜山區復興一路230號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S027": {
       "id": "S027",
@@ -221,7 +351,12 @@
       "landmark": "基隆市陽明海洋文化藝術館",
       "sourceText": "基隆市陽明海洋文化藝術館(基隆市仁愛區港西街4號)",
       "geocodeQuery": "基隆市仁愛區港西街4號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S028": {
       "id": "S028",
@@ -229,7 +364,12 @@
       "landmark": "國軍基隆福利站",
       "sourceText": "安樂路一段2號(國軍基隆福利站)",
       "geocodeQuery": "基隆市安樂區安樂路一段2號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S029": {
       "id": "S029",
@@ -237,7 +377,12 @@
       "landmark": "中華郵局 / 基隆長庚旁",
       "sourceText": "安樂路二段132號(中華郵局/基隆長庚旁)",
       "geocodeQuery": "基隆市安樂區安樂路二段132號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S030": {
       "id": "S030",
@@ -245,7 +390,12 @@
       "landmark": "八堵火車站旁",
       "sourceText": "228紀念碑(八堵火車站旁)",
       "geocodeQuery": "基隆市八堵火車站",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地標",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S031": {
       "id": "S031",
@@ -253,7 +403,12 @@
       "landmark": "許家粿仔湯",
       "sourceText": "七堵區崇智街2之10號(許家粿仔湯)",
       "geocodeQuery": "基隆市七堵區崇智街2之10號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S032": {
       "id": "S032",
@@ -261,7 +416,12 @@
       "landmark": "百一街口公車站牌 / 新台五路上",
       "sourceText": "百一街口公車站牌(百一街151號前，新台五路上)",
       "geocodeQuery": "基隆市七堵區百一街151號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S033": {
       "id": "S033",
@@ -269,7 +429,12 @@
       "landmark": "富康骨科診所",
       "sourceText": "富國路102號(富康骨科診所)",
       "geocodeQuery": "新北市新莊區富國路102號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S034": {
       "id": "S034",
@@ -277,7 +442,12 @@
       "landmark": "過站牌變電箱",
       "sourceText": "後港一路132號旁(過站牌變電箱)",
       "geocodeQuery": "新北市新莊區後港一路132號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S035": {
       "id": "S035",
@@ -285,7 +455,12 @@
       "landmark": "近捷運輔大2號出口",
       "sourceText": "中正路555號旁(近捷運輔大2號出口)",
       "geocodeQuery": "新北市新莊區中正路555號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S036": {
       "id": "S036",
@@ -293,7 +468,12 @@
       "landmark": "新莊文藝中心",
       "sourceText": "中平路133號(新莊文藝中心)",
       "geocodeQuery": "新北市新莊區中平路133號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S037": {
       "id": "S037",
@@ -301,7 +481,12 @@
       "landmark": "合作金庫銀行",
       "sourceText": "思源路339號(合作金庫銀行)",
       "geocodeQuery": "新北市新莊區思源路339號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S038": {
       "id": "S038",
@@ -309,7 +494,12 @@
       "landmark": "勝博五金",
       "sourceText": "新泰路370號(勝博五金)",
       "geocodeQuery": "新北市新莊區新泰路370號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S039": {
       "id": "S039",
@@ -317,7 +507,12 @@
       "landmark": "中欣旅行社",
       "sourceText": "公園一路16號(中欣旅行社)",
       "geocodeQuery": "新北市新莊區公園一路16號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S040": {
       "id": "S040",
@@ -325,7 +520,12 @@
       "landmark": "長峰珠算補習班",
       "sourceText": "公園一路146號(長峰珠算補習班)",
       "geocodeQuery": "新北市新莊區公園一路146號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S041": {
       "id": "S041",
@@ -333,7 +533,12 @@
       "landmark": "北投3號廣場公園",
       "sourceText": "北投路二段與大業路452巷口(北投3號廣場公園)",
       "geocodeQuery": "台北市北投區北投路二段 大業路452巷口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S042": {
       "id": "S042",
@@ -341,7 +546,12 @@
       "landmark": "日昌眼鏡",
       "sourceText": "北安路537之2號(日昌眼鏡)",
       "geocodeQuery": "台北市中山區北安路537之2號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S043": {
       "id": "S043",
@@ -349,7 +559,12 @@
       "landmark": "劍潭路上",
       "sourceText": "捷運劍潭站高架橋下(劍潭路上)",
       "geocodeQuery": "台北市捷運劍潭站",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地標",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S044": {
       "id": "S044",
@@ -357,7 +572,12 @@
       "landmark": "福國路 / 捷運橋下",
       "sourceText": "福國路芝山捷運站1號出口(捷運橋下)",
       "geocodeQuery": "台北市捷運芝山站1號出口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S045": {
       "id": "S045",
@@ -365,7 +585,12 @@
       "landmark": "歐霸韓式料理",
       "sourceText": "中正路362號(歐霸韓式料理)",
       "geocodeQuery": "台北市士林區中正路362號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S046": {
       "id": "S046",
@@ -373,7 +598,12 @@
       "landmark": "麥當勞",
       "sourceText": "石牌路二段126號(麥當勞)",
       "geocodeQuery": "台北市北投區石牌路二段126號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S047": {
       "id": "S047",
@@ -381,7 +611,12 @@
       "landmark": "",
       "sourceText": "天母東路8號",
       "geocodeQuery": "台北市士林區天母東路8號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S048": {
       "id": "S048",
@@ -389,7 +624,12 @@
       "landmark": "梁社漢排骨店",
       "sourceText": "忠誠路二段76巷口(梁社漢排骨店)",
       "geocodeQuery": "台北市士林區忠誠路二段76巷口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S049": {
       "id": "S049",
@@ -397,7 +637,12 @@
       "landmark": "橡木桶",
       "sourceText": "忠誠路一段138號(橡木桶)",
       "geocodeQuery": "台北市士林區忠誠路一段138號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S050": {
       "id": "S050",
@@ -405,7 +650,12 @@
       "landmark": "永慶房屋",
       "sourceText": "西安街二段283號(永慶房屋)",
       "geocodeQuery": "台北市北投區西安街二段283號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S051": {
       "id": "S051",
@@ -413,7 +663,12 @@
       "landmark": "石牌國中公車站牌",
       "sourceText": "石牌國中公車站牌(西安街二段85號旁)",
       "geocodeQuery": "台北市北投區西安街二段85號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S052": {
       "id": "S052",
@@ -421,7 +676,12 @@
       "landmark": "全國加油站旁",
       "sourceText": "重慶北路四段117號(全國加油站旁)",
       "geocodeQuery": "台北市士林區重慶北路四段117號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S053": {
       "id": "S053",
@@ -429,7 +689,12 @@
       "landmark": "中山21號廣場",
       "sourceText": "植福路11號(中山21號廣場)",
       "geocodeQuery": "台北市中山區植福路11號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S054": {
       "id": "S054",
@@ -437,7 +702,12 @@
       "landmark": "陽信銀行",
       "sourceText": "內湖路一段250號(陽信銀行)",
       "geocodeQuery": "台北市內湖區內湖路一段250號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S055": {
       "id": "S055",
@@ -445,7 +715,12 @@
       "landmark": "麗山街公車站",
       "sourceText": "內湖路一段370號(麗山街公車站)",
       "geocodeQuery": "台北市內湖區內湖路一段370號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S056": {
       "id": "S056",
@@ -453,7 +728,12 @@
       "landmark": "內湖高中公車站牌",
       "sourceText": "內湖高中公車站牌(文德路220巷口前)",
       "geocodeQuery": "台北市內湖區文德路220巷口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S057": {
       "id": "S057",
@@ -461,7 +741,12 @@
       "landmark": "大樹連鎖藥局",
       "sourceText": "文德路102號(大樹連鎖藥局)",
       "geocodeQuery": "台北市內湖區文德路102號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S058": {
       "id": "S058",
@@ -469,7 +754,12 @@
       "landmark": "",
       "sourceText": "成功路四段141號",
       "geocodeQuery": "台北市內湖區成功路四段141號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S059": {
       "id": "S059",
@@ -477,7 +767,12 @@
       "landmark": "",
       "sourceText": "民權東路六段493號",
       "geocodeQuery": "台北市內湖區民權東路六段493號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S060": {
       "id": "S060",
@@ -485,7 +780,12 @@
       "landmark": "聯邦銀行",
       "sourceText": "民權東路六段150號(聯邦銀行)",
       "geocodeQuery": "台北市內湖區民權東路六段150號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S061": {
       "id": "S061",
@@ -493,7 +793,12 @@
       "landmark": "英皇牙醫",
       "sourceText": "民權東路一段24號(英皇牙醫)",
       "geocodeQuery": "台北市中山區民權東路一段24號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S062": {
       "id": "S062",
@@ -501,7 +806,12 @@
       "landmark": "",
       "sourceText": "民權東路二段48號",
       "geocodeQuery": "台北市中山區民權東路二段48號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S063": {
       "id": "S063",
@@ -509,7 +819,12 @@
       "landmark": "金牌鴻記名產館",
       "sourceText": "建國北路二段262號(金牌鴻記名產館)",
       "geocodeQuery": "台北市中山區建國北路二段262號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S064": {
       "id": "S064",
@@ -517,7 +832,12 @@
       "landmark": "榮星花園游泳池",
       "sourceText": "建國北路三段39號(榮星花園游泳池)",
       "geocodeQuery": "台北市中山區建國北路三段39號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S065": {
       "id": "S065",
@@ -525,7 +845,12 @@
       "landmark": "合江街口公車站牌 / 南山民生大樓",
       "sourceText": "合江街口公車站牌(民生東路三段8號/南山民生大樓)",
       "geocodeQuery": "台北市中山區民生東路三段8號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S066": {
       "id": "S066",
@@ -533,7 +858,12 @@
       "landmark": "台北大學(台北校區)公車站牌",
       "sourceText": "台北大學(台北校區)公車站牌(民生東路三段86巷口)",
       "geocodeQuery": "台北市中山區民生東路三段86巷口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S067": {
       "id": "S067",
@@ -541,7 +871,12 @@
       "landmark": "富邦銀行",
       "sourceText": "民生東路三段138號(富邦銀行)",
       "geocodeQuery": "台北市松山區民生東路三段138號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S068": {
       "id": "S068",
@@ -549,7 +884,12 @@
       "landmark": "7-11",
       "sourceText": "民生東路五段8號(7-11)",
       "geocodeQuery": "台北市松山區民生東路五段8號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S069": {
       "id": "S069",
@@ -557,7 +897,12 @@
       "landmark": "恩瑞眼鏡",
       "sourceText": "民生東路五段182號(恩瑞眼鏡)",
       "geocodeQuery": "台北市松山區民生東路五段182號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S070": {
       "id": "S070",
@@ -565,7 +910,12 @@
       "landmark": "日藥本舖",
       "sourceText": "南京東路一段52號(日藥本舖)",
       "geocodeQuery": "台北市中山區南京東路一段52號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S071": {
       "id": "S071",
@@ -573,7 +923,12 @@
       "landmark": "詹記麻辣火鍋",
       "sourceText": "南京東路二段176號(詹記麻辣火鍋)",
       "geocodeQuery": "台北市中山區南京東路二段176號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S072": {
       "id": "S072",
@@ -581,7 +936,12 @@
       "landmark": "台實大樓",
       "sourceText": "南京東路三段270號(台實大樓)",
       "geocodeQuery": "台北市松山區南京東路三段270號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S073": {
       "id": "S073",
@@ -589,7 +949,12 @@
       "landmark": "國泰世華",
       "sourceText": "南京東路四段126號(國泰世華)",
       "geocodeQuery": "台北市松山區南京東路四段126號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S074": {
       "id": "S074",
@@ -597,7 +962,12 @@
       "landmark": "日藥本舖",
       "sourceText": "南京東路五段60號(日藥本舖)",
       "geocodeQuery": "台北市松山區南京東路五段60號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S075": {
       "id": "S075",
@@ -605,7 +975,12 @@
       "landmark": "周牙醫",
       "sourceText": "南京東路五段256號(周牙醫)",
       "geocodeQuery": "台北市松山區南京東路五段256號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S076": {
       "id": "S076",
@@ -613,7 +988,12 @@
       "landmark": "7-11",
       "sourceText": "八德路四段778號(7-11)",
       "geocodeQuery": "台北市南港區八德路四段778號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S077": {
       "id": "S077",
@@ -621,7 +1001,12 @@
       "landmark": "飛飛軍警百貨旁公車站牌",
       "sourceText": "中正區中華路一段67號(飛飛軍警百貨旁公車站牌)",
       "geocodeQuery": "台北市中正區中華路一段67號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S078": {
       "id": "S078",
@@ -629,7 +1014,12 @@
       "landmark": "忠孝國小公車站牌",
       "sourceText": "忠孝國小公車站牌(忠孝東路二段96號前)",
       "geocodeQuery": "台北市中正區忠孝東路二段96號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S079": {
       "id": "S079",
@@ -637,7 +1027,12 @@
       "landmark": "懷生國中公車站牌",
       "sourceText": "懷生國中公車站牌(忠孝東路三段242號前)",
       "geocodeQuery": "台北市大安區忠孝東路三段242號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S080": {
       "id": "S080",
@@ -645,7 +1040,12 @@
       "landmark": "明曜百貨",
       "sourceText": "忠孝東路四段200號(明曜百貨)",
       "geocodeQuery": "台北市大安區忠孝東路四段200號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S081": {
       "id": "S081",
@@ -653,7 +1053,12 @@
       "landmark": "7-11",
       "sourceText": "光復南路262號(7-11)",
       "geocodeQuery": "台北市大安區光復南路262號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S082": {
       "id": "S082",
@@ -661,7 +1066,12 @@
       "landmark": "華南銀行",
       "sourceText": "信義路四段458號(華南銀行)",
       "geocodeQuery": "台北市信義區信義路四段458號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S083": {
       "id": "S083",
@@ -669,7 +1079,12 @@
       "landmark": "信義松仁路口公車站牌",
       "sourceText": "信義松仁路口公車站牌(信義路五段108號前)",
       "geocodeQuery": "台北市信義區信義路五段108號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S084": {
       "id": "S084",
@@ -677,7 +1092,12 @@
       "landmark": "POLAR BEAR 北極熊-永春門市",
       "sourceText": "忠孝東路五段506號(POLAR BEAR 北極熊-永春門市)",
       "geocodeQuery": "台北市信義區忠孝東路五段506號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S085": {
       "id": "S085",
@@ -685,7 +1105,12 @@
       "landmark": "久億汽車",
       "sourceText": "忠孝東路六段156號(久億汽車)",
       "geocodeQuery": "台北市南港區忠孝東路六段156號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S086": {
       "id": "S086",
@@ -693,7 +1118,12 @@
       "landmark": "萬大國小公車站牌",
       "sourceText": "萬大國小公車站牌(萬大路321號前)",
       "geocodeQuery": "台北市萬華區萬大路321號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S087": {
       "id": "S087",
@@ -701,7 +1131,12 @@
       "landmark": "惠安街口",
       "sourceText": "西藏路39號(惠安街口)",
       "geocodeQuery": "台北市中正區西藏路39號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S088": {
       "id": "S088",
@@ -709,7 +1144,12 @@
       "landmark": "幸園牙醫",
       "sourceText": "敦化南路二段178號(幸園牙醫)",
       "geocodeQuery": "台北市大安區敦化南路二段178號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S089": {
       "id": "S089",
@@ -717,7 +1157,12 @@
       "landmark": "早享早餐店前公車站牌",
       "sourceText": "永和仁愛路125號(早享早餐店前公車站牌)",
       "geocodeQuery": "新北市永和區仁愛路125號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S090": {
       "id": "S090",
@@ -725,7 +1170,12 @@
       "landmark": "英美語言中心",
       "sourceText": "永和路二段226號(英美語言中心)",
       "geocodeQuery": "新北市永和區永和路二段226號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S091": {
       "id": "S091",
@@ -733,7 +1183,12 @@
       "landmark": "台北富邦銀行",
       "sourceText": "和平東路一段178號(台北富邦銀行)",
       "geocodeQuery": "台北市大安區和平東路一段178號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S092": {
       "id": "S092",
@@ -741,7 +1196,12 @@
       "landmark": "台北靈糧堂",
       "sourceText": "和平東路二段24號(台北靈糧堂)",
       "geocodeQuery": "台北市大安區和平東路二段24號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S093": {
       "id": "S093",
@@ -749,7 +1209,12 @@
       "landmark": "吳神父民俗療館",
       "sourceText": "中山路一段207號(吳神父民俗療館)",
       "geocodeQuery": "新北市永和區中山路一段207號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S094": {
       "id": "S094",
@@ -757,7 +1222,12 @@
       "landmark": "欣鍋園火鍋店",
       "sourceText": "和平西路一段34號(欣鍋園火鍋店)",
       "geocodeQuery": "台北市中正區和平西路一段34號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S095": {
       "id": "S095",
@@ -765,7 +1235,12 @@
       "landmark": "",
       "sourceText": "自來水處公車站牌",
       "geocodeQuery": "台北市自來水處公車站牌",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "缺少完整門牌或唯一地標；建議人工確認 Google Maps 位置後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S096": {
       "id": "S096",
@@ -773,7 +1248,12 @@
       "landmark": "老薑汕頭麵",
       "sourceText": "福和路239號(老薑汕頭麵)",
       "geocodeQuery": "新北市永和區福和路239號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S097": {
       "id": "S097",
@@ -781,7 +1261,12 @@
       "landmark": "長庚生技",
       "sourceText": "福和路73號(長庚生技)",
       "geocodeQuery": "新北市永和區福和路73號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S098": {
       "id": "S098",
@@ -789,7 +1274,12 @@
       "landmark": "佳音英語",
       "sourceText": "辛亥路一段32號(佳音英語)",
       "geocodeQuery": "台北市大安區辛亥路一段32號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S099": {
       "id": "S099",
@@ -797,7 +1287,12 @@
       "landmark": "大埔鐵板燒",
       "sourceText": "興隆路二段277號(大埔鐵板燒)",
       "geocodeQuery": "台北市文山區興隆路二段277號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S100": {
       "id": "S100",
@@ -805,7 +1300,12 @@
       "landmark": "興隆市場前公車站牌",
       "sourceText": "興隆路二段97號(興隆市場前公車站牌)",
       "geocodeQuery": "台北市文山區興隆路二段97號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S101": {
       "id": "S101",
@@ -813,7 +1313,12 @@
       "landmark": "御珍鮑",
       "sourceText": "羅斯福路六段11號(御珍鮑)",
       "geocodeQuery": "台北市文山區羅斯福路六段11號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S102": {
       "id": "S102",
@@ -821,7 +1326,12 @@
       "landmark": "豐品設計中心",
       "sourceText": "羅斯福路五段121號(豐品設計中心)",
       "geocodeQuery": "台北市文山區羅斯福路五段121號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S103": {
       "id": "S103",
@@ -829,7 +1339,12 @@
       "landmark": "中英醫院",
       "sourceText": "文化路一段196號(中英醫院)",
       "geocodeQuery": "新北市板橋區文化路一段196號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S104": {
       "id": "S104",
@@ -837,7 +1352,12 @@
       "landmark": "新銳科技大樓",
       "sourceText": "中和市中正路909號(新銳科技大樓)",
       "geocodeQuery": "新北市中和區中正路909號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S105": {
       "id": "S105",
@@ -845,7 +1365,12 @@
       "landmark": "台電台北南區營業處",
       "sourceText": "縣民大道二段1號(台電台北南區營業處)",
       "geocodeQuery": "新北市板橋區縣民大道二段1號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S106": {
       "id": "S106",
@@ -853,7 +1378,12 @@
       "landmark": "信義房屋",
       "sourceText": "文化路二段22號(信義房屋)",
       "geocodeQuery": "新北市板橋區文化路二段22號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S107": {
       "id": "S107",
@@ -861,7 +1391,12 @@
       "landmark": "國泰世華",
       "sourceText": "重慶路262號(國泰世華)",
       "geocodeQuery": "新北市板橋區重慶路262號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S108": {
       "id": "S108",
@@ -869,7 +1404,12 @@
       "landmark": "壽司郎",
       "sourceText": "中山路一段10號(壽司郎)",
       "geocodeQuery": "新北市板橋區中山路一段10號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S109": {
       "id": "S109",
@@ -877,7 +1417,12 @@
       "landmark": "遠傳電信",
       "sourceText": "雙十路二段71號(遠傳電信)",
       "geocodeQuery": "新北市板橋區雙十路二段71號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S110": {
       "id": "S110",
@@ -885,7 +1430,12 @@
       "landmark": "埔墘公車站牌",
       "sourceText": "三民路二段72號(埔墘公車站牌)",
       "geocodeQuery": "新北市板橋區三民路二段72號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S111": {
       "id": "S111",
@@ -893,7 +1443,12 @@
       "landmark": "北美蛋糕麵包",
       "sourceText": "國慶路203號(北美蛋糕麵包)",
       "geocodeQuery": "新北市板橋區國慶路203號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S112": {
       "id": "S112",
@@ -901,7 +1456,12 @@
       "landmark": "全國電子",
       "sourceText": "金城路二段209號(全國電子)",
       "geocodeQuery": "新北市土城區金城路二段209號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S113": {
       "id": "S113",
@@ -909,7 +1469,12 @@
       "landmark": "摩斯漢堡",
       "sourceText": "新北市土城區中央路三段84號(摩斯漢堡)",
       "geocodeQuery": "新北市土城區中央路三段84號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S114": {
       "id": "S114",
@@ -917,7 +1482,12 @@
       "landmark": "青葉油漆",
       "sourceText": "板橋區信義路82號(青葉油漆)",
       "geocodeQuery": "新北市板橋區信義路82號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S115": {
       "id": "S115",
@@ -925,7 +1495,12 @@
       "landmark": "土城國小 / 興城公共托育中心",
       "sourceText": "土城國小金城路一段校門口(興城公共托育中心)",
       "geocodeQuery": "新北市土城區金城路一段 土城國小",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地標",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S116": {
       "id": "S116",
@@ -933,7 +1508,12 @@
       "landmark": "麥當勞",
       "sourceText": "正義北路15號(麥當勞)",
       "geocodeQuery": "新北市三重區正義北路15號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S117": {
       "id": "S117",
@@ -941,7 +1521,12 @@
       "landmark": "台灣大哥大",
       "sourceText": "正義北路325號(台灣大哥大)",
       "geocodeQuery": "新北市三重區正義北路325號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S118": {
       "id": "S118",
@@ -949,7 +1534,12 @@
       "landmark": "中華郵局",
       "sourceText": "新北大道一段17號(中華郵局)",
       "geocodeQuery": "新北市三重區新北大道一段17號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S119": {
       "id": "S119",
@@ -957,7 +1547,12 @@
       "landmark": "公車站牌",
       "sourceText": "蘆洲捷運站3號出口公車站牌",
       "geocodeQuery": "新北市蘆洲區捷運蘆洲站3號出口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S120": {
       "id": "S120",
@@ -965,7 +1560,12 @@
       "landmark": "光陽機車",
       "sourceText": "中山一路63號(光陽機車)",
       "geocodeQuery": "新北市蘆洲區中山一路63號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S121": {
       "id": "S121",
@@ -973,7 +1573,12 @@
       "landmark": "德恩堂眼鏡",
       "sourceText": "三和路四段390號(德恩堂眼鏡)",
       "geocodeQuery": "新北市三重區三和路四段390號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S122": {
       "id": "S122",
@@ -981,7 +1586,12 @@
       "landmark": "金通物流",
       "sourceText": "新五路二段236號(金通物流)",
       "geocodeQuery": "新北市五股區新五路二段236號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S123": {
       "id": "S123",
@@ -989,7 +1599,12 @@
       "landmark": "家樂福",
       "sourceText": "長榮路386號(家樂福)",
       "geocodeQuery": "新北市蘆洲區長榮路386號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S124": {
       "id": "S124",
@@ -997,7 +1612,12 @@
       "landmark": "復興三民路口",
       "sourceText": "三民高中捷運站1號出口(復興三民路口)",
       "geocodeQuery": "新北市蘆洲區捷運三民高中站1號出口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S125": {
       "id": "S125",
@@ -1005,7 +1625,12 @@
       "landmark": "日式炭火燒烤店 / 景安捷運站對面",
       "sourceText": "景平路341號(日式炭火燒烤店/景安捷運站對面)",
       "geocodeQuery": "新北市中和區景平路341號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S126": {
       "id": "S126",
@@ -1013,7 +1638,12 @@
       "landmark": "景平捷運站",
       "sourceText": "景平路121號(景平捷運站)",
       "geocodeQuery": "新北市中和區景平路121號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S127": {
       "id": "S127",
@@ -1021,7 +1651,12 @@
       "landmark": "李家刀削麵",
       "sourceText": "景新街404號(李家刀削麵)",
       "geocodeQuery": "新北市中和區景新街404號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S128": {
       "id": "S128",
@@ -1029,7 +1664,12 @@
       "landmark": "新和國小公車站牌",
       "sourceText": "新和國小公車站牌(安和路三段151號前)",
       "geocodeQuery": "新北市新店區安和路三段151號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S129": {
       "id": "S129",
@@ -1037,7 +1677,12 @@
       "landmark": "長鴻寵物店",
       "sourceText": "景平路396號(長鴻寵物店)",
       "geocodeQuery": "新北市中和區景平路396號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S130": {
       "id": "S130",
@@ -1045,7 +1690,12 @@
       "landmark": "全聯福利中心",
       "sourceText": "中正路80號(全聯福利中心)",
       "geocodeQuery": "新北市中和區中正路80號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S131": {
       "id": "S131",
@@ -1053,7 +1703,12 @@
       "landmark": "大印科技 / 天橋旁 / 錦和路口",
       "sourceText": "中正路462號(大印科技/天橋旁/錦和路口)",
       "geocodeQuery": "新北市中和區中正路462號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S132": {
       "id": "S132",
@@ -1061,7 +1716,12 @@
       "landmark": "小林髮廊",
       "sourceText": "得和路327號(小林髮廊)",
       "geocodeQuery": "新北市永和區得和路327號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S133": {
       "id": "S133",
@@ -1069,7 +1729,12 @@
       "landmark": "永正健康藥局",
       "sourceText": "中正路191號(永正健康藥局)",
       "geocodeQuery": "新北市永和區中正路191號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S134": {
       "id": "S134",
@@ -1077,7 +1742,12 @@
       "landmark": "中國信託",
       "sourceText": "中正路61號(中國信託)",
       "geocodeQuery": "新北市永和區中正路61號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S135": {
       "id": "S135",
@@ -1085,7 +1755,12 @@
       "landmark": "神吉MOTO",
       "sourceText": "安和路一段47號(神吉MOTO)",
       "geocodeQuery": "新北市新店區安和路一段47號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S136": {
       "id": "S136",
@@ -1093,7 +1768,12 @@
       "landmark": "考試院公車站牌",
       "sourceText": "考試院公車站牌(木柵路一段72號前)",
       "geocodeQuery": "台北市文山區木柵路一段72號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S137": {
       "id": "S137",
@@ -1101,7 +1781,12 @@
       "landmark": "再興中學公車站",
       "sourceText": "木柵路二段66號(再興中學公車站)",
       "geocodeQuery": "台北市文山區木柵路二段66號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S138": {
       "id": "S138",
@@ -1109,7 +1794,12 @@
       "landmark": "久康公園公車站",
       "sourceText": "秀明路一段(久康公園公車站)",
       "geocodeQuery": "台北市文山區秀明路一段 久康公園",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地標",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S139": {
       "id": "S139",
@@ -1117,7 +1807,12 @@
       "landmark": "萬壽橋頭前",
       "sourceText": "木柵國小後門斑馬線(萬壽橋頭前)",
       "geocodeQuery": "台北市文山區木柵國小後門",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地標",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S140": {
       "id": "S140",
@@ -1125,7 +1820,12 @@
       "landmark": "雙口組檳榔攤 / 鄰捷運木柵站",
       "sourceText": "木柵路4段96號(雙口組檳榔攤/鄰捷運木柵站)",
       "geocodeQuery": "台北市文山區木柵路四段96號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S141": {
       "id": "S141",
@@ -1133,7 +1833,12 @@
       "landmark": "華南銀行 / 鄰捷運七張站",
       "sourceText": "北新路二段108號(華南銀行/鄰捷運七張站)",
       "geocodeQuery": "新北市新店區北新路二段108號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S142": {
       "id": "S142",
@@ -1141,7 +1846,12 @@
       "landmark": "康是美",
       "sourceText": "新店區民權路17號(康是美)",
       "geocodeQuery": "新北市新店區民權路17號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S143": {
       "id": "S143",
@@ -1149,7 +1859,12 @@
       "landmark": "藝立方雷射雕刻",
       "sourceText": "藝立方雷射雕刻(成功路76號)",
       "geocodeQuery": "新北市永和區成功路76號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S144": {
       "id": "S144",
@@ -1157,7 +1872,12 @@
       "landmark": "公車站牌",
       "sourceText": "中正路75巷口(公車站牌)",
       "geocodeQuery": "新北市新店區中正路75巷口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S145": {
       "id": "S145",
@@ -1165,7 +1885,12 @@
       "landmark": "內湖辦公區",
       "sourceText": "內湖區行善路158號(內湖辦公區)",
       "geocodeQuery": "台北市內湖區行善路158號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S146": {
       "id": "S146",
@@ -1173,7 +1898,12 @@
       "landmark": "宏碁大樓 / 汐止發車點",
       "sourceText": "汐止區新台五路一段88號(宏碁大樓)",
       "geocodeQuery": "新北市汐止區新台五路一段88號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S147": {
       "id": "S147",
@@ -1181,7 +1911,12 @@
       "landmark": "",
       "sourceText": "新台五百三街口",
       "geocodeQuery": "基隆市七堵區新台五路 百三街口",
-      "notes": "依上排行駛路線「汐止→基隆」補全為新台五路／百三街口。"
+      "notes": "依上排行駛路線「汐止→基隆」補全為新台五路／百三街口。",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S148": {
       "id": "S148",
@@ -1189,7 +1924,12 @@
       "landmark": "七堵郵局",
       "sourceText": "明德一路171號(七堵郵局)",
       "geocodeQuery": "基隆市七堵區明德一路171號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S149": {
       "id": "S149",
@@ -1197,7 +1937,12 @@
       "landmark": "基隆廟口",
       "sourceText": "仁愛區玉田里仁三路(基隆廟口)",
       "geocodeQuery": "基隆市仁愛區仁三路 基隆廟口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "缺少完整門牌或唯一地標；建議人工確認 Google Maps 位置後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S150": {
       "id": "S150",
@@ -1205,7 +1950,12 @@
       "landmark": "肯德基門口",
       "sourceText": "忠二路13號(肯得基門口)",
       "geocodeQuery": "基隆市仁愛區忠二路13號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S151": {
       "id": "S151",
@@ -1213,7 +1963,12 @@
       "landmark": "天成醫院",
       "sourceText": "延平路155號(天成醫院)",
       "geocodeQuery": "桃園市中壢區延平路155號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S152": {
       "id": "S152",
@@ -1221,7 +1976,12 @@
       "landmark": "錢櫃KTV",
       "sourceText": "中央東路88號(錢櫃ktv)",
       "geocodeQuery": "桃園市中壢區中央東路88號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S153": {
       "id": "S153",
@@ -1229,7 +1989,12 @@
       "landmark": "陽明醫院",
       "sourceText": "平鎮區延平路二段56號(陽明醫院)",
       "geocodeQuery": "桃園市平鎮區延平路二段56號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S154": {
       "id": "S154",
@@ -1237,7 +2002,12 @@
       "landmark": "長江加油站",
       "sourceText": "延平路二段323號(長江加油站)",
       "geocodeQuery": "桃園市平鎮區延平路二段323號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S155": {
       "id": "S155",
@@ -1245,7 +2015,12 @@
       "landmark": "思夢樂",
       "sourceText": "中豐路379號(思夢樂)",
       "geocodeQuery": "桃園市平鎮區中豐路379號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S156": {
       "id": "S156",
@@ -1253,7 +2028,12 @@
       "landmark": "高拉力機械有限公司",
       "sourceText": "東園路43號(高拉力機械有限公司)",
       "geocodeQuery": "桃園市中壢區東園路43號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S157": {
       "id": "S157",
@@ -1261,7 +2041,12 @@
       "landmark": "長勝電動麻將桌",
       "sourceText": "中園路147號(長勝電動麻將桌)",
       "geocodeQuery": "桃園市中壢區中園路147號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S158": {
       "id": "S158",
@@ -1269,7 +2054,12 @@
       "landmark": "中壢中央公園",
       "sourceText": "中央公園",
       "geocodeQuery": "桃園市中壢區中央公園",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地標",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S159": {
       "id": "S159",
@@ -1277,7 +2067,12 @@
       "landmark": "星巴克",
       "sourceText": "經國路737號(星巴克)",
       "geocodeQuery": "桃園市桃園區經國路737號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S160": {
       "id": "S160",
@@ -1285,7 +2080,12 @@
       "landmark": "麥當勞",
       "sourceText": "經國路495號(麥當勞)",
       "geocodeQuery": "桃園市桃園區經國路495號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S161": {
       "id": "S161",
@@ -1293,7 +2093,12 @@
       "landmark": "家樂福",
       "sourceText": "經國路369號(家樂福)",
       "geocodeQuery": "桃園市桃園區經國路369號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S162": {
       "id": "S162",
@@ -1301,7 +2106,12 @@
       "landmark": "全家",
       "sourceText": "經國路451號(全家)",
       "geocodeQuery": "桃園市桃園區經國路451號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S163": {
       "id": "S163",
@@ -1309,7 +2119,12 @@
       "landmark": "7-11",
       "sourceText": "民生路535號(7-11)",
       "geocodeQuery": "桃園市桃園區民生路535號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S164": {
       "id": "S164",
@@ -1317,7 +2132,12 @@
       "landmark": "公車站牌前",
       "sourceText": "成功路民生路站牌前",
       "geocodeQuery": "桃園市桃園區成功路 民生路口",
-      "notes": "依上排行駛路線「民生路→成功路」補全為成功路／民生路口。"
+      "notes": "依上排行駛路線「民生路→成功路」補全為成功路／民生路口。",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S165": {
       "id": "S165",
@@ -1325,7 +2145,12 @@
       "landmark": "公車站牌前",
       "sourceText": "復興路民權路口站牌前",
       "geocodeQuery": "桃園市桃園區復興路 民權路口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S166": {
       "id": "S166",
@@ -1333,7 +2158,12 @@
       "landmark": "台電大樓站牌",
       "sourceText": "台電大樓站牌前",
       "geocodeQuery": "桃園市桃園區復興路 台電大樓",
-      "notes": "依上排行駛路線「民權路→復興路→中山路」補上復興路脈絡。"
+      "notes": "依上排行駛路線「民權路→復興路→中山路」補上復興路脈絡。",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "缺少完整門牌或唯一地標；建議人工確認 Google Maps 位置後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S167": {
       "id": "S167",
@@ -1341,7 +2171,12 @@
       "landmark": "公車站牌前",
       "sourceText": "中山路正光街口站牌前",
       "geocodeQuery": "桃園市桃園區中山路 正光街口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S168": {
       "id": "S168",
@@ -1349,7 +2184,12 @@
       "landmark": "紅綠燈前",
       "sourceText": "中山路龍安街紅綠燈前",
       "geocodeQuery": "桃園市桃園區中山路 龍安街口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S169": {
       "id": "S169",
@@ -1357,7 +2197,12 @@
       "landmark": "天香回味餐廳",
       "sourceText": "蘆竹新南路一段165號(天香回味餐廳)",
       "geocodeQuery": "桃園市蘆竹區新南路一段165號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S170": {
       "id": "S170",
@@ -1365,7 +2210,12 @@
       "landmark": "",
       "sourceText": "復興一路、文化二路一段路口",
       "geocodeQuery": "桃園市龜山區復興一路 文化二路一段路口",
-      "notes": "依上排行駛路線補全林口第二交流道周邊道路脈絡。"
+      "notes": "依上排行駛路線補全林口第二交流道周邊道路脈絡。",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S171": {
       "id": "S171",
@@ -1373,7 +2223,12 @@
       "landmark": "公車站牌三井站",
       "sourceText": "文化二路一段106號（公車站牌三井站）",
       "geocodeQuery": "新北市林口區文化二路一段106號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S172": {
       "id": "S172",
@@ -1381,7 +2236,12 @@
       "landmark": "海瑞貢丸",
       "sourceText": "光復路二段36號(海瑞貢丸)",
       "geocodeQuery": "新竹市東區光復路二段36號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S173": {
       "id": "S173",
@@ -1389,7 +2249,12 @@
       "landmark": "清華大學",
       "sourceText": "清華大學",
       "geocodeQuery": "新竹市東區國立清華大學 光復路二段",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地標",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S174": {
       "id": "S174",
@@ -1397,7 +2262,12 @@
       "landmark": "必勝客",
       "sourceText": "光復路二段752號(必勝客)",
       "geocodeQuery": "新竹市東區光復路二段752號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S175": {
       "id": "S175",
@@ -1405,7 +2275,12 @@
       "landmark": "",
       "sourceText": "東大南大路口",
       "geocodeQuery": "新竹市東區東大路 南大路口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S176": {
       "id": "S176",
@@ -1413,7 +2288,12 @@
       "landmark": "",
       "sourceText": "新竹轉運站",
       "geocodeQuery": "新竹市東區新竹轉運站",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地標",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S177": {
       "id": "S177",
@@ -1421,7 +2301,12 @@
       "landmark": "",
       "sourceText": "南大路食品路口",
       "geocodeQuery": "新竹市東區南大路 食品路口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S178": {
       "id": "S178",
@@ -1429,7 +2314,12 @@
       "landmark": "全家",
       "sourceText": "大溪區永昌路355號(全家)",
       "geocodeQuery": "桃園市大溪區永昌路355號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S179": {
       "id": "S179",
@@ -1437,7 +2327,12 @@
       "landmark": "台聯客運",
       "sourceText": "龍潭大昌路二段172號(台聯客運)",
       "geocodeQuery": "桃園市龍潭區大昌路二段172號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S180": {
       "id": "S180",
@@ -1445,7 +2340,12 @@
       "landmark": "三重交流道下，過忠孝路口",
       "sourceText": "三重交流道下，重陽路過忠孝路口停靠下客人",
       "geocodeQuery": "新北市三重區重陽路 忠孝路口",
-      "notes": "依上排行駛路線補全為重陽路／忠孝路口。"
+      "notes": "依上排行駛路線補全為重陽路／忠孝路口。",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S181": {
       "id": "S181",
@@ -1453,7 +2353,12 @@
       "landmark": "終點",
       "sourceText": "三重九陽店（全家便利商店門口）下客人結束。",
       "geocodeQuery": "新北市三重區 全家便利商店 三重九陽店",
-      "notes": "PDF未提供門牌，使用店名作為 Google Maps 定位搜尋文字。"
+      "notes": "PDF未提供門牌，使用店名作為 Google Maps 定位搜尋文字。",
+      "locationMethod": "Google地標",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S182": {
       "id": "S182",
@@ -1461,7 +2366,12 @@
       "landmark": "公車站",
       "sourceText": "蘆洲區中原路49號(公車站)",
       "geocodeQuery": "新北市蘆洲區中原路49號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S183": {
       "id": "S183",
@@ -1469,7 +2379,12 @@
       "landmark": "三民路／中正路口公車站",
       "sourceText": "捷運蘆洲站(公車站)新北市蘆洲三民路/中正路口",
       "geocodeQuery": "新北市蘆洲區捷運蘆洲站",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地標",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S184": {
       "id": "S184",
@@ -1477,7 +2392,12 @@
       "landmark": "空中大學",
       "sourceText": "三民路221號(空中大學)",
       "geocodeQuery": "新北市蘆洲區三民路221號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S185": {
       "id": "S185",
@@ -1485,7 +2405,12 @@
       "landmark": "摩曼頓三民店",
       "sourceText": "摩曼頓(三民店)新北市蘆洲區三民路25號",
       "geocodeQuery": "新北市蘆洲區三民路25號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S186": {
       "id": "S186",
@@ -1493,7 +2418,12 @@
       "landmark": "瑞和中醫診所 / 公車站",
       "sourceText": "中平路363號瑞和中醫診所(公車站)",
       "geocodeQuery": "新北市新莊區中平路363號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S187": {
       "id": "S187",
@@ -1501,7 +2431,12 @@
       "landmark": "中信房屋 / 樂家藥局",
       "sourceText": "中平路269號(中信房屋或樂家藥局)",
       "geocodeQuery": "新北市新莊區中平路269號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S188": {
       "id": "S188",
@@ -1509,7 +2444,12 @@
       "landmark": "劉茂祥診所",
       "sourceText": "幸福路651號(劉茂祥診所)",
       "geocodeQuery": "新北市新莊區幸福路651號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S189": {
       "id": "S189",
@@ -1517,7 +2457,12 @@
       "landmark": "",
       "sourceText": "辛福路與福壽街口前後",
       "geocodeQuery": "新北市新莊區幸福路 福壽街口",
-      "notes": "PDF下排寫「辛福路」；依上排行駛路線修正定位為「幸福路／福壽街口」。"
+      "notes": "PDF下排寫「辛福路」；依上排行駛路線修正定位為「幸福路／福壽街口」。",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S190": {
       "id": "S190",
@@ -1525,7 +2470,12 @@
       "landmark": "民生路／文化路旁",
       "sourceText": "板橋民生路過文化路旁新埔2號出口",
       "geocodeQuery": "新北市板橋區捷運新埔站2號出口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S191": {
       "id": "S191",
@@ -1533,7 +2483,12 @@
       "landmark": "公車站",
       "sourceText": "新泰路、中環路口公車站",
       "geocodeQuery": "新北市新莊區新泰路 中環路口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S192": {
       "id": "S192",
@@ -1541,7 +2496,12 @@
       "landmark": "校門口",
       "sourceText": "新泰國中門口",
       "geocodeQuery": "新北市新莊區新泰國中",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地標",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S193": {
       "id": "S193",
@@ -1549,7 +2509,12 @@
       "landmark": "",
       "sourceText": "新泰路、公園路口前",
       "geocodeQuery": "新北市新莊區新泰路 公園路口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S194": {
       "id": "S194",
@@ -1557,7 +2522,12 @@
       "landmark": "",
       "sourceText": "公園路、中正路口前",
       "geocodeQuery": "新北市新莊區公園路 中正路口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S195": {
       "id": "S195",
@@ -1565,7 +2535,12 @@
       "landmark": "校門口",
       "sourceText": "輔仁大學門口",
       "geocodeQuery": "新北市新莊區輔仁大學",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地標",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S196": {
       "id": "S196",
@@ -1573,7 +2548,12 @@
       "landmark": "公車站牌",
       "sourceText": "重慶北路四段58號（公車站牌）",
       "geocodeQuery": "台北市士林區重慶北路四段58號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S197": {
       "id": "S197",
@@ -1581,7 +2561,12 @@
       "landmark": "機車用品店",
       "sourceText": "中正路429號（機車用車店）",
       "geocodeQuery": "台北市士林區中正路429號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S198": {
       "id": "S198",
@@ -1589,7 +2574,12 @@
       "landmark": "中正路側",
       "sourceText": "捷運士林站（中正）",
       "geocodeQuery": "台北市士林區捷運士林站 中正路",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地標",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S199": {
       "id": "S199",
@@ -1597,7 +2587,12 @@
       "landmark": "公車站牌",
       "sourceText": "忠誠公園（公車站牌）",
       "geocodeQuery": "台北市士林區忠誠公園",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地標",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S200": {
       "id": "S200",
@@ -1605,7 +2600,12 @@
       "landmark": "",
       "sourceText": "大葉高島屋",
       "geocodeQuery": "台北市士林區大葉高島屋",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地標",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S201": {
       "id": "S201",
@@ -1613,7 +2613,12 @@
       "landmark": "公車站牌",
       "sourceText": "天母東路1之6號（公車站牌）",
       "geocodeQuery": "台北市士林區天母東路1之6號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S202": {
       "id": "S202",
@@ -1621,7 +2626,12 @@
       "landmark": "媽咪咖啡館",
       "sourceText": "天母西路73號（媽咪咖啡館）",
       "geocodeQuery": "台北市士林區天母西路73號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S203": {
       "id": "S203",
@@ -1629,7 +2639,12 @@
       "landmark": "東華街側",
       "sourceText": "捷運唭哩岸站（東華）",
       "geocodeQuery": "台北市北投區捷運唭哩岸站 東華街",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地標",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S204": {
       "id": "S204",
@@ -1637,7 +2652,14 @@
       "landmark": "公車站牌",
       "sourceText": "重慶北路左轉酒泉街(公車站牌)",
       "geocodeQuery": "台北市大同區重慶北路 酒泉街口",
-      "notes": "依上排行駛路線補全為重慶北路／酒泉街口。"
+      "notes": "依上排行駛路線補全為重慶北路／酒泉街口。",
+      "locationMethod": "公開資料固定座標",
+      "needsManualReview": false,
+      "locationNotes": "公開 YouBike 站點「重慶酒泉街口」座標；網站固定使用此座標，不再以路口文字 Geocode。",
+      "coordinateSource": "https://rplus.github.io/youbike-map/",
+      "coordinateConfidence": "高",
+      "lat": 25.07183,
+      "lng": 121.51364
     },
     "S205": {
       "id": "S205",
@@ -1645,7 +2667,12 @@
       "landmark": "",
       "sourceText": "酒泉街與承德路口",
       "geocodeQuery": "台北市大同區酒泉街 承德路口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S206": {
       "id": "S206",
@@ -1653,7 +2680,14 @@
       "landmark": "近捷運民權西路站",
       "sourceText": "承德路與民權西路口",
       "geocodeQuery": "台北市大同區承德路 民權西路口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "公開資料固定座標",
+      "needsManualReview": true,
+      "locationNotes": "公開照片標示拍攝位置為承德路／民權西路口；可代表路口位置，但未確認實際下車側，保留人工確認。",
+      "coordinateSource": "https://commons.wikimedia.org/wiki/File:%E6%89%BF%E5%BE%B7%E8%B7%AF%E5%A4%A9%E6%A9%8B_-_panoramio.jpg",
+      "coordinateConfidence": "中",
+      "lat": 25.063326,
+      "lng": 121.518316
     },
     "S207": {
       "id": "S207",
@@ -1661,7 +2695,12 @@
       "landmark": "",
       "sourceText": "成功路二段上灣仔公車站",
       "geocodeQuery": "台北市內湖區成功路二段 上灣仔公車站",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "缺少完整門牌或唯一地標；建議人工確認 Google Maps 位置後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S208": {
       "id": "S208",
@@ -1669,7 +2708,12 @@
       "landmark": "",
       "sourceText": "方濟中學公車站牌",
       "geocodeQuery": "台北市內湖區方濟中學 公車站",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "缺少完整門牌或唯一地標；建議人工確認 Google Maps 位置後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S209": {
       "id": "S209",
@@ -1677,7 +2721,12 @@
       "landmark": "",
       "sourceText": "文德捷運站",
       "geocodeQuery": "台北市內湖區捷運文德站",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地標",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S210": {
       "id": "S210",
@@ -1685,7 +2734,12 @@
       "landmark": "",
       "sourceText": "文德路中信房屋",
       "geocodeQuery": "台北市內湖區文德路 中信房屋",
-      "notes": "PDF未提供門牌，使用道路＋地標定位。"
+      "notes": "PDF未提供門牌，使用道路＋地標定位。",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "缺少完整門牌或唯一地標；建議人工確認 Google Maps 位置後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S211": {
       "id": "S211",
@@ -1693,7 +2747,12 @@
       "landmark": "",
       "sourceText": "內湖路一段麥當勞",
       "geocodeQuery": "台北市內湖區內湖路一段 麥當勞",
-      "notes": "PDF未提供門牌，使用道路＋地標定位。"
+      "notes": "PDF未提供門牌，使用道路＋地標定位。",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "缺少完整門牌或唯一地標；建議人工確認 Google Maps 位置後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S212": {
       "id": "S212",
@@ -1701,7 +2760,12 @@
       "landmark": "",
       "sourceText": "港墘捷運站",
       "geocodeQuery": "台北市內湖區捷運港墘站",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地標",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S213": {
       "id": "S213",
@@ -1709,7 +2773,12 @@
       "landmark": "",
       "sourceText": "西湖捷運站",
       "geocodeQuery": "台北市內湖區捷運西湖站",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地標",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S214": {
       "id": "S214",
@@ -1717,7 +2786,12 @@
       "landmark": "",
       "sourceText": "來來豆漿店",
       "geocodeQuery": "台北市內湖區內湖路 來來豆漿店",
-      "notes": "依上排行駛路線補上內湖路脈絡。"
+      "notes": "依上排行駛路線補上內湖路脈絡。",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "缺少完整門牌或唯一地標；建議人工確認 Google Maps 位置後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S215": {
       "id": "S215",
@@ -1725,7 +2799,12 @@
       "landmark": "",
       "sourceText": "劍南捷運站",
       "geocodeQuery": "台北市中山區捷運劍南路站",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地標",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S216": {
       "id": "S216",
@@ -1733,7 +2812,12 @@
       "landmark": "",
       "sourceText": "自強遂道口公車站",
       "geocodeQuery": "台北市中山區自強隧道口 公車站",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "缺少完整門牌或唯一地標；建議人工確認 Google Maps 位置後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S217": {
       "id": "S217",
@@ -1741,7 +2825,12 @@
       "landmark": "劍潭公園土地公廟",
       "sourceText": "中山區中山北路四段67號(劍潭公園土地公廟)",
       "geocodeQuery": "台北市中山區中山北路四段67號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S218": {
       "id": "S218",
@@ -1749,7 +2838,14 @@
       "landmark": "",
       "sourceText": "南京舊宗路口",
       "geocodeQuery": "台北市內湖區南京東路六段 舊宗路口",
-      "notes": "依上排行駛路線「沿南京東路直行」補全。"
+      "notes": "依上排行駛路線「沿南京東路直行」補全。",
+      "locationMethod": "公開資料固定座標",
+      "needsManualReview": false,
+      "locationNotes": "公開交通資料站位「南京舊宗路口」座標；與 PDF 站名一致。",
+      "coordinateSource": "https://data.zhupiter.com/oddt/24007552/%E5%8D%97%E4%BA%AC%E8%88%8A%E5%AE%97%E8%B7%AF%E5%8F%A3/",
+      "coordinateConfidence": "高",
+      "lat": 25.05618,
+      "lng": 121.57988
     },
     "S219": {
       "id": "S219",
@@ -1757,7 +2853,14 @@
       "landmark": "",
       "sourceText": "南京東興路口",
       "geocodeQuery": "台北市松山區南京東路五段 東興路口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "公開資料固定座標",
+      "needsManualReview": false,
+      "locationNotes": "公開 YouBike 站點「南京東興路口」座標；與 PDF 站名一致。",
+      "coordinateSource": "https://rplus.github.io/youbike-map/",
+      "coordinateConfidence": "高",
+      "lat": 25.051489,
+      "lng": 121.565347
     },
     "S220": {
       "id": "S220",
@@ -1765,7 +2868,12 @@
       "landmark": "",
       "sourceText": "南京東路五段129巷口",
       "geocodeQuery": "台北市松山區南京東路五段129巷口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S221": {
       "id": "S221",
@@ -1773,7 +2881,12 @@
       "landmark": "",
       "sourceText": "南京的東路四段133巷口",
       "geocodeQuery": "台北市松山區南京東路四段133巷口",
-      "notes": "PDF文字「南京的東路」依道路名稱修正顯示為南京東路。"
+      "notes": "PDF文字「南京的東路」依道路名稱修正顯示為南京東路。",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S222": {
       "id": "S222",
@@ -1781,7 +2894,14 @@
       "landmark": "",
       "sourceText": "南京復興北路口",
       "geocodeQuery": "台北市松山區南京東路 復興北路口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "公開資料固定座標",
+      "needsManualReview": false,
+      "locationNotes": "公開交通站位「捷運南京復興站」座標；捷運站位於南京東路／復興北路交叉口。",
+      "coordinateSource": "https://data.zhupiter.com/oddt/23916281/%E6%8D%B7%E9%81%8B%E5%8D%97%E4%BA%AC%E5%BE%A9%E8%88%88%E7%AB%99/",
+      "coordinateConfidence": "高",
+      "lat": 25.05274,
+      "lng": 121.54423
     },
     "S223": {
       "id": "S223",
@@ -1789,7 +2909,14 @@
       "landmark": "",
       "sourceText": "南京松江路口",
       "geocodeQuery": "台北市中山區南京東路 松江路口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "公開資料固定座標",
+      "needsManualReview": false,
+      "locationNotes": "公開交通站位「捷運松江南京站」座標；對應南京東路／松江路口。",
+      "coordinateSource": "https://data.zhupiter.com/oddt/21248803/%E6%8D%B7%E9%81%8B%E6%9D%BE%E6%B1%9F%E5%8D%97%E4%BA%AC%E7%AB%99/",
+      "coordinateConfidence": "高",
+      "lat": 25.052043,
+      "lng": 121.533594
     },
     "S224": {
       "id": "S224",
@@ -1797,7 +2924,14 @@
       "landmark": "",
       "sourceText": "南京北林森路口",
       "geocodeQuery": "台北市中山區南京東路 林森北路口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "公開資料固定座標",
+      "needsManualReview": false,
+      "locationNotes": "交通部公路局公開站位「南京林森路口」座標；與 PDF 站名一致。",
+      "coordinateSource": "https://data.zhupiter.com/oddt/15024336/%E5%8D%97%E4%BA%AC%E6%9E%97%E6%A3%AE%E8%B7%AF%E5%8F%A3/",
+      "coordinateConfidence": "高",
+      "lat": 25.05215,
+      "lng": 121.52585
     },
     "S225": {
       "id": "S225",
@@ -1805,7 +2939,14 @@
       "landmark": "",
       "sourceText": "承德路長安西路口",
       "geocodeQuery": "台北市大同區承德路 長安西路口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "公開資料固定座標",
+      "needsManualReview": true,
+      "locationNotes": "公開建物資料標示建物位於承德路一段／長安西路口並提供座標；可代表路口附近，但未確認實際下車側。",
+      "coordinateSource": "https://tw.bpmatlas.com/property/p-1v2p8u/",
+      "coordinateConfidence": "中",
+      "lat": 25.0508672,
+      "lng": 121.5171002
     },
     "S226": {
       "id": "S226",
@@ -1813,7 +2954,12 @@
       "landmark": "",
       "sourceText": "大安運動中心",
       "geocodeQuery": "台北市大安區大安運動中心 辛亥路",
-      "notes": "依上排行駛路線補上辛亥路脈絡。"
+      "notes": "依上排行駛路線補上辛亥路脈絡。",
+      "locationMethod": "Google地標",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S227": {
       "id": "S227",
@@ -1821,7 +2967,14 @@
       "landmark": "過路口",
       "sourceText": "過復興南路",
       "geocodeQuery": "台北市大安區辛亥路 復興南路口",
-      "notes": "下排僅寫「過復興南路」；依上排當時車輛行駛辛亥路，補全為辛亥路／復興南路口。"
+      "notes": "下排僅寫「過復興南路」；依上排當時車輛行駛辛亥路，補全為辛亥路／復興南路口。",
+      "locationMethod": "公開資料固定座標",
+      "needsManualReview": true,
+      "locationNotes": "公開資料指出臺大霖澤館位於辛亥路／復興南路口並提供座標；代表路口附近，未確認實際下車側。",
+      "coordinateSource": "https://www.wikizero.net/wiki/zh/%E5%9C%8B%E7%AB%8B%E5%8F%B0%E7%81%A3%E5%A4%A7%E5%AD%B8%E6%B3%95%E5%BE%8B%E5%AD%B8%E9%99%A2",
+      "coordinateConfidence": "中",
+      "lat": 25.02056,
+      "lng": 121.54367
     },
     "S228": {
       "id": "S228",
@@ -1829,7 +2982,14 @@
       "landmark": "",
       "sourceText": "新生南路辛亥路",
       "geocodeQuery": "台北市大安區新生南路 辛亥路口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "公開資料固定座標",
+      "needsManualReview": false,
+      "locationNotes": "公開 YouBike 站點「辛亥新生路口」座標；對應 PDF 新生南路／辛亥路口。",
+      "coordinateSource": "https://rplus.github.io/youbike-map/",
+      "coordinateConfidence": "高",
+      "lat": 25.022413,
+      "lng": 121.53456
     },
     "S229": {
       "id": "S229",
@@ -1837,7 +2997,12 @@
       "landmark": "",
       "sourceText": "公館捷運站",
       "geocodeQuery": "台北市中正區捷運公館站",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地標",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S230": {
       "id": "S230",
@@ -1845,7 +3010,12 @@
       "landmark": "",
       "sourceText": "興隆路口",
       "geocodeQuery": "台北市文山區羅斯福路 興隆路口",
-      "notes": "依上排「左轉羅斯福路直行」補全。"
+      "notes": "依上排「左轉羅斯福路直行」補全。",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S231": {
       "id": "S231",
@@ -1853,7 +3023,12 @@
       "landmark": "",
       "sourceText": "萬隆街口",
       "geocodeQuery": "台北市文山區羅斯福路 萬隆街口",
-      "notes": "依上排「羅斯福路直行」補全。"
+      "notes": "依上排「羅斯福路直行」補全。",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S232": {
       "id": "S232",
@@ -1861,7 +3036,12 @@
       "landmark": "",
       "sourceText": "景美捷運站",
       "geocodeQuery": "台北市文山區捷運景美站",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地標",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S233": {
       "id": "S233",
@@ -1869,7 +3049,12 @@
       "landmark": "",
       "sourceText": "大坪林捷運站",
       "geocodeQuery": "新北市新店區捷運大坪林站",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地標",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S234": {
       "id": "S234",
@@ -1877,7 +3062,12 @@
       "landmark": "",
       "sourceText": "木柵捷運站",
       "geocodeQuery": "台北市文山區捷運木柵站",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地標",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S235": {
       "id": "S235",
@@ -1885,7 +3075,12 @@
       "landmark": "",
       "sourceText": "秀明路口",
       "geocodeQuery": "台北市文山區萬芳路 秀明路口",
-      "notes": "依上排「木柵捷運站→萬芳→木柵路」補全為萬芳路／秀明路口。"
+      "notes": "依上排「木柵捷運站→萬芳→木柵路」補全為萬芳路／秀明路口。",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S236": {
       "id": "S236",
@@ -1893,7 +3088,12 @@
       "landmark": "",
       "sourceText": "木柵路二段路口",
       "geocodeQuery": "台北市文山區萬芳路 木柵路二段路口",
-      "notes": "依上排由萬芳銜接木柵路，補全定位脈絡。"
+      "notes": "依上排由萬芳銜接木柵路，補全定位脈絡。",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S237": {
       "id": "S237",
@@ -1901,7 +3101,12 @@
       "landmark": "",
       "sourceText": "興隆路口",
       "geocodeQuery": "台北市文山區木柵路 興隆路口",
-      "notes": "依上排車輛已進入木柵路補全。"
+      "notes": "依上排車輛已進入木柵路補全。",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S238": {
       "id": "S238",
@@ -1909,7 +3114,12 @@
       "landmark": "",
       "sourceText": "光輝路口",
       "geocodeQuery": "台北市文山區木柵路 光輝路口",
-      "notes": "依上排車輛行駛木柵路補全。"
+      "notes": "依上排車輛行駛木柵路補全。",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S239": {
       "id": "S239",
@@ -1917,7 +3127,12 @@
       "landmark": "7-11",
       "sourceText": "中興路口7-11",
       "geocodeQuery": "台北市文山區木柵路 景興路口 7-11",
-      "notes": "PDF下排文字為「中興路口7-11」；依上排木柵路往景美街的道路連續性，定位搜尋採木柵路／景興路口。PDF原文仍保留供人工核對。"
+      "notes": "PDF下排文字為「中興路口7-11」；依上排木柵路往景美街的道路連續性，定位搜尋採木柵路／景興路口。PDF原文仍保留供人工核對。",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S240": {
       "id": "S240",
@@ -1925,7 +3140,12 @@
       "landmark": "永豐銀行",
       "sourceText": "車前路 永豐銀行",
       "geocodeQuery": "台北市文山區車前路 永豐銀行",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地標",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S241": {
       "id": "S241",
@@ -1933,7 +3153,12 @@
       "landmark": "",
       "sourceText": "捷運台電大樓站2號出口",
       "geocodeQuery": "台北市中正區捷運台電大樓站2號出口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S242": {
       "id": "S242",
@@ -1941,7 +3166,12 @@
       "landmark": "",
       "sourceText": "捷運古亭站3號出口",
       "geocodeQuery": "台北市中正區捷運古亭站3號出口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S243": {
       "id": "S243",
@@ -1949,15 +3179,25 @@
       "landmark": "大撰生猛海鮮",
       "sourceText": "羅斯福路一段43號(大撰生猛海鮮)",
       "geocodeQuery": "台北市中正區羅斯福路一段43號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S244": {
       "id": "S244",
       "displayName": "忠孝東路／基隆路口",
       "landmark": "",
       "sourceText": "基隆路.忠孝東路口",
-      "geocodeQuery": "台北市信義區忠孝東路 基隆路口",
-      "notes": ""
+      "geocodeQuery": "台北市信義區忠孝東路四段550號",
+      "notes": "",
+      "locationMethod": "Google地址（公開資料補全）",
+      "needsManualReview": false,
+      "locationNotes": "公開臺北市自行車站點資料將基隆路／忠孝東路口附近定位到忠孝東路四段550號；改用完整門牌讓 Google 定位。",
+      "coordinateSource": "https://atis.taipei.gov.tw/aspx/park/bikeL.aspx?lang=zh-Hant-TW&region=%E4%BF%A1%E7%BE%A9%E5%8D%80",
+      "coordinateConfidence": "高"
     },
     "S245": {
       "id": "S245",
@@ -1965,7 +3205,14 @@
       "landmark": "站牌",
       "sourceText": "光復北路站牌",
       "geocodeQuery": "台北市大安區忠孝東路 光復南路口",
-      "notes": "上排明確沿忠孝東路往西，該交叉口道路為光復南路；保留PDF原文於「PDF原文」。"
+      "notes": "上排明確沿忠孝東路往西，該交叉口道路為光復南路；保留PDF原文於「PDF原文」。",
+      "locationMethod": "公開資料固定座標",
+      "needsManualReview": false,
+      "locationNotes": "臺北市官方 YouBike 資料：捷運國父紀念館站(2號出口)，位於忠孝東路四段／光復南路口西南側。",
+      "coordinateSource": "https://www-ws.gov.taipei/001/Upload/371/relfile/18936/4254292/6f0e1c92-4ce3-4d6e-8418-9b8fbba7589b.pdf",
+      "coordinateConfidence": "高",
+      "lat": 25.041254,
+      "lng": 121.55742
     },
     "S246": {
       "id": "S246",
@@ -1973,7 +3220,14 @@
       "landmark": "站牌",
       "sourceText": "敦化北路站牌",
       "geocodeQuery": "台北市大安區忠孝東路 敦化南路口",
-      "notes": "依上排行駛忠孝東路脈絡修正定位道路方向。"
+      "notes": "依上排行駛忠孝東路脈絡修正定位道路方向。",
+      "locationMethod": "公開資料固定座標",
+      "needsManualReview": true,
+      "locationNotes": "公開 YouBike 舊站資料「龍門廣場」座標，可代表忠孝東路／敦化南路附近；未確認實際下車側。",
+      "coordinateSource": "https://rplus.github.io/youbike-map/",
+      "coordinateConfidence": "中",
+      "lat": 25.040901,
+      "lng": 121.548252
     },
     "S247": {
       "id": "S247",
@@ -1981,7 +3235,12 @@
       "landmark": "NET",
       "sourceText": "大安街(NET)",
       "geocodeQuery": "台北市大安區忠孝東路 大安路口 NET",
-      "notes": "依上下排脈絡將大安街站定位於忠孝東路／大安路口附近。"
+      "notes": "依上下排脈絡將大安街站定位於忠孝東路／大安路口附近。",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S248": {
       "id": "S248",
@@ -1989,7 +3248,14 @@
       "landmark": "站牌",
       "sourceText": "復興北路站牌",
       "geocodeQuery": "台北市大安區忠孝東路 復興南路口",
-      "notes": "依上排行駛忠孝東路脈絡修正定位道路方向。"
+      "notes": "依上排行駛忠孝東路脈絡修正定位道路方向。",
+      "locationMethod": "公開資料固定座標",
+      "needsManualReview": true,
+      "locationNotes": "公開捷運站資料提供忠孝復興站座標，可代表忠孝東路／復興南路口；未確認實際下車側。",
+      "coordinateSource": "https://wikis.tw/%E5%BF%A0%E5%AD%9D%E5%BE%A9%E8%88%88%E7%AB%99",
+      "coordinateConfidence": "中",
+      "lat": 25.04167,
+      "lng": 121.54389
     },
     "S249": {
       "id": "S249",
@@ -1997,7 +3263,12 @@
       "landmark": "終點站",
       "sourceText": "建國北路口(最終站)",
       "geocodeQuery": "台北市大安區忠孝東路 建國南路口",
-      "notes": "上排明確寫「忠孝東路/建國南路交叉口」，以此作定位。"
+      "notes": "上排明確寫「忠孝東路/建國南路交叉口」，以此作定位。",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S250": {
       "id": "S250",
@@ -2005,7 +3276,12 @@
       "landmark": "",
       "sourceText": "研究院路右轉忠孝東路停",
       "geocodeQuery": "台北市南港區忠孝東路 研究院路口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S251": {
       "id": "S251",
@@ -2013,7 +3289,12 @@
       "landmark": "",
       "sourceText": "捷運昆陽站",
       "geocodeQuery": "台北市南港區捷運昆陽站",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地標",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S252": {
       "id": "S252",
@@ -2021,7 +3302,12 @@
       "landmark": "",
       "sourceText": "捷運後山埤站",
       "geocodeQuery": "台北市南港區捷運後山埤站",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地標",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S253": {
       "id": "S253",
@@ -2029,7 +3315,12 @@
       "landmark": "",
       "sourceText": "捷運永春站",
       "geocodeQuery": "台北市信義區捷運永春站",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地標",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S254": {
       "id": "S254",
@@ -2037,7 +3328,14 @@
       "landmark": "",
       "sourceText": "忠孝東路松仁路口",
       "geocodeQuery": "台北市信義區忠孝東路 松仁路口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "公開資料固定座標",
+      "needsManualReview": false,
+      "locationNotes": "臺北市官方 YouBike 資料：捷運市政府站(3號出口)，地址欄標示忠孝東路／松仁路東南側。",
+      "coordinateSource": "https://www-ws.gov.taipei/001/Upload/public/mmo/dot/YouBike_JSON%E6%AA%94%E6%A1%88%E8%AA%AA%E6%98%8E%28%E4%BF%AE%E6%AD%A3%E7%89%88%29_%E5%B1%80%E7%B6%B2.pdf",
+      "coordinateConfidence": "高",
+      "lat": 25.0408578889,
+      "lng": 121.567904444
     },
     "S255": {
       "id": "S255",
@@ -2045,7 +3343,12 @@
       "landmark": "",
       "sourceText": "(京銀銀行雙和分行)",
       "geocodeQuery": "新北市中和區 京城銀行雙和分行",
-      "notes": "PDF未提供門牌；依上排進入中和中正路/中山路走廊，加上中和區域定位。"
+      "notes": "PDF未提供門牌；依上排進入中和中正路/中山路走廊，加上中和區域定位。",
+      "locationMethod": "Google地標",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S256": {
       "id": "S256",
@@ -2053,7 +3356,12 @@
       "landmark": "",
       "sourceText": "(鑫順專業檳榔)",
       "geocodeQuery": "新北市中和區 鑫順專業檳榔",
-      "notes": "PDF未提供門牌；依上排行駛區域加上中和區定位。"
+      "notes": "PDF未提供門牌；依上排行駛區域加上中和區定位。",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "缺少完整門牌或唯一地標；建議人工確認 Google Maps 位置後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S257": {
       "id": "S257",
@@ -2061,7 +3369,12 @@
       "landmark": "麻油雞",
       "sourceText": "民生路一段52號(麻油雞)",
       "geocodeQuery": "新北市板橋區民生路一段52號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S258": {
       "id": "S258",
@@ -2069,7 +3382,12 @@
       "landmark": "近捷運新埔站",
       "sourceText": "民生路二段226巷6弄前(近新埔捷運站)",
       "geocodeQuery": "新北市板橋區民生路二段226巷6弄",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "缺少完整門牌或唯一地標；建議人工確認 Google Maps 位置後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S259": {
       "id": "S259",
@@ -2077,7 +3395,12 @@
       "landmark": "過路口",
       "sourceText": "過陽明路口",
       "geocodeQuery": "新北市板橋區文化路 陽明街口",
-      "notes": "依上排「文化路(新埔捷運站)→民權路」補全；板橋此處道路為陽明街。"
+      "notes": "依上排「文化路(新埔捷運站)→民權路」補全；板橋此處道路為陽明街。",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S260": {
       "id": "S260",
@@ -2085,7 +3408,12 @@
       "landmark": "土地銀行",
       "sourceText": "文化路一段143號(土地銀行)",
       "geocodeQuery": "新北市板橋區文化路一段143號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S261": {
       "id": "S261",
@@ -2093,7 +3421,12 @@
       "landmark": "往民權路／縣民大道",
       "sourceText": "民族路與文化路一段32巷口(民權路右轉縣民大道)",
       "geocodeQuery": "新北市板橋區民族路 文化路一段32巷口",
-      "notes": "保留PDF交叉路口文字；上排用於確認板橋府中方向。"
+      "notes": "保留PDF交叉路口文字；上排用於確認板橋府中方向。",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S262": {
       "id": "S262",
@@ -2101,7 +3434,12 @@
       "landmark": "",
       "sourceText": "中正路中興路口",
       "geocodeQuery": "新北市中和區中正路 中興街口",
-      "notes": "上排寫「中興街口」，以此作定位。"
+      "notes": "上排寫「中興街口」，以此作定位。",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S263": {
       "id": "S263",
@@ -2109,7 +3447,12 @@
       "landmark": "",
       "sourceText": "景安捷運站對面",
       "geocodeQuery": "新北市中和區捷運景安站",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地標",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S264": {
       "id": "S264",
@@ -2117,7 +3460,12 @@
       "landmark": "",
       "sourceText": "智光商工",
       "geocodeQuery": "新北市永和區智光商工",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地標",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S265": {
       "id": "S265",
@@ -2125,7 +3473,12 @@
       "landmark": "",
       "sourceText": "民治街口麥當勞",
       "geocodeQuery": "新北市永和區中正路 民治街口 麥當勞",
-      "notes": "依上排進入永和中正路後補全道路。"
+      "notes": "依上排進入永和中正路後補全道路。",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S266": {
       "id": "S266",
@@ -2133,7 +3486,14 @@
       "landmark": "",
       "sourceText": "永貞路口",
       "geocodeQuery": "新北市永和區中正路 永貞路口",
-      "notes": "依上排永和中正路→永和路補全。"
+      "notes": "依上排永和中正路→永和路補全。",
+      "locationMethod": "公開資料固定座標",
+      "needsManualReview": false,
+      "locationNotes": "新北市政府道路即時影像資料標示「永和區中正路、永貞路」GPS 座標。",
+      "coordinateSource": "https://livecam.tw/cam/NWT0058/",
+      "coordinateConfidence": "高",
+      "lat": 25.0042,
+      "lng": 121.5172
     },
     "S267": {
       "id": "S267",
@@ -2141,7 +3501,12 @@
       "landmark": "終點站",
       "sourceText": "頂溪捷運-站口",
       "geocodeQuery": "新北市永和區捷運頂溪站",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地標",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S268": {
       "id": "S268",
@@ -2149,7 +3514,12 @@
       "landmark": "公車站牌",
       "sourceText": "安和路一段過吉安路口公車站牌",
       "geocodeQuery": "新北市新店區安和路一段 吉安路口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S269": {
       "id": "S269",
@@ -2157,7 +3527,12 @@
       "landmark": "寶島鐘錶眼鏡",
       "sourceText": "景新路上寶島鐘錶眼鏡",
       "geocodeQuery": "新北市中和區景新街 寶島鐘錶",
-      "notes": "上排行駛路線寫「中和景新街」，以景新街作定位。"
+      "notes": "上排行駛路線寫「中和景新街」，以景新街作定位。",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "缺少完整門牌或唯一地標；建議人工確認 Google Maps 位置後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S270": {
       "id": "S270",
@@ -2165,7 +3540,14 @@
       "landmark": "",
       "sourceText": "連城路口",
       "geocodeQuery": "新北市中和區中正路 連城路口",
-      "notes": "上排終點脈絡為中正路/連城路。"
+      "notes": "上排終點脈絡為中正路/連城路。",
+      "locationMethod": "公開資料固定座標",
+      "needsManualReview": false,
+      "locationNotes": "亞東動物醫院公開頁面明載位於中和區中正路／連城路交叉口，並提供 WGS84 座標。",
+      "coordinateSource": "https://www.vet639.url.tw/hospital.htm",
+      "coordinateConfidence": "高",
+      "lat": 24.995729,
+      "lng": 121.485259
     },
     "S271": {
       "id": "S271",
@@ -2173,15 +3555,25 @@
       "landmark": "",
       "sourceText": "永寧捷運站2號出口",
       "geocodeQuery": "新北市土城區捷運永寧站2號出口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S272": {
       "id": "S272",
       "displayName": "金城路／和平路口",
       "landmark": "",
       "sourceText": "金城路與和平路口",
-      "geocodeQuery": "新北市土城區金城路 和平路口",
-      "notes": ""
+      "geocodeQuery": "新北市土城區 捷運土城站2號出口",
+      "notes": "",
+      "locationMethod": "Google地標（公開資料補全）",
+      "needsManualReview": true,
+      "locationNotes": "臺北捷運官方資料指出土城站2號出口位於金城路一段／和平路交叉口；改用捷運出口作 Google 定位，仍建議確認實際下車側。",
+      "coordinateSource": "https://web.metro.taipei/pages2026/WebStation/078/1",
+      "coordinateConfidence": "中"
     },
     "S273": {
       "id": "S273",
@@ -2189,7 +3581,12 @@
       "landmark": "",
       "sourceText": "金城路與裕民路口",
       "geocodeQuery": "新北市土城區金城路 裕民路口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S274": {
       "id": "S274",
@@ -2197,7 +3594,12 @@
       "landmark": "信峰機車行",
       "sourceText": "青雲路101號(信峰機車行)",
       "geocodeQuery": "新北市土城區青雲路101號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S275": {
       "id": "S275",
@@ -2205,7 +3607,12 @@
       "landmark": "",
       "sourceText": "國慶路164號",
       "geocodeQuery": "新北市板橋區國慶路164號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S276": {
       "id": "S276",
@@ -2213,7 +3620,12 @@
       "landmark": "",
       "sourceText": "國慶路256號",
       "geocodeQuery": "新北市板橋區國慶路256號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S277": {
       "id": "S277",
@@ -2221,7 +3633,12 @@
       "landmark": "炬工實業有限公司",
       "sourceText": "五股中興路199號(炬工實業也限公司)",
       "geocodeQuery": "新北市五股區中興路199號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S278": {
       "id": "S278",
@@ -2229,7 +3646,12 @@
       "landmark": "",
       "sourceText": "永安南路二段 永安南路二段16巷",
       "geocodeQuery": "新北市蘆洲區永安南路二段16巷口",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "人工座標優先",
+      "needsManualReview": true,
+      "locationNotes": "路口/巷口文字可能只定位到交叉口中心；建議在 Google Maps 找到實際候車側後填入緯度、經度。",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S279": {
       "id": "S279",
@@ -2237,7 +3659,12 @@
       "landmark": "中國信託",
       "sourceText": "中山一路207號（中國信託）",
       "geocodeQuery": "新北市蘆洲區中山一路207號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S280": {
       "id": "S280",
@@ -2245,7 +3672,12 @@
       "landmark": "東南旅遊",
       "sourceText": "中山一路23號（東南旅遊）",
       "geocodeQuery": "新北市蘆洲區中山一路23號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S281": {
       "id": "S281",
@@ -2253,7 +3685,12 @@
       "landmark": "麥當勞",
       "sourceText": "三和路四段398-3號（麥當勞）",
       "geocodeQuery": "新北市三重區三和路四段398-3號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     },
     "S282": {
       "id": "S282",
@@ -2261,7 +3698,12 @@
       "landmark": "京鼎當舖",
       "sourceText": "三和路三段168號（京鼎當舖）",
       "geocodeQuery": "新北市三重區三和路三段168號",
-      "notes": ""
+      "notes": "",
+      "locationMethod": "Google地址",
+      "needsManualReview": false,
+      "locationNotes": "",
+      "coordinateSource": "",
+      "coordinateConfidence": ""
     }
   },
   "routes": [

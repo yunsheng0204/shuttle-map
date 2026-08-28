@@ -144,12 +144,15 @@
 
     el.stopCount.textContent = `${route.stops.length} 個停靠點`;
 
-    const items = route.stops.map(entry => ({
-      ...entry,
-      stop: state.locations[entry.locationId],
-      lat: null,
-      lng: null
-    }));
+    const items = route.stops.map(entry => {
+      const stop = state.locations[entry.locationId];
+      return {
+        ...entry,
+        stop,
+        lat: typeof stop?.lat === 'number' ? stop.lat : null,
+        lng: typeof stop?.lng === 'number' ? stop.lng : null
+      };
+    });
 
     renderStopCards(items);
 
@@ -157,12 +160,14 @@
     const result = await shuttleMap.renderStops(items);
     if (result?.cancelled || state.selectedRouteId !== routeId) return;
 
+    const fixed = result.precomputed || 0;
+    const googleLocated = result.geocoded || 0;
     if (result.located === result.total) {
-      shuttleMap.setStatus(`第 ${route.number} 線：${result.total} 個站點已由 Google Maps 自動定位。`);
+      shuttleMap.setStatus(`第 ${route.number} 線：Excel 座標 ${fixed} 個、Google 定位 ${googleLocated} 個，共 ${result.total} 個站點。`);
     } else if (result.located > 0) {
-      shuttleMap.setStatus(`第 ${route.number} 線：Google Maps 已定位 ${result.located}/${result.total} 個站點；其餘仍可用地址導航。`);
+      shuttleMap.setStatus(`第 ${route.number} 線：Excel 座標 ${fixed} 個、Google 定位 ${googleLocated} 個；已定位 ${result.located}/${result.total}，其餘仍可用地址導航。`);
     } else {
-      shuttleMap.setStatus(`第 ${route.number} 線：Google Maps 未找到站點座標；仍可使用地址導航。`);
+      shuttleMap.setStatus(`第 ${route.number} 線：尚無可用站點座標；仍可使用地址導航。`);
     }
   }
 
