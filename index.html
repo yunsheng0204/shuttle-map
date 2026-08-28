@@ -11,7 +11,7 @@
     <div>
       <p class="eyebrow">Shuttle Bus Map · Prototype</p>
       <h1>公司交通車路線圖</h1>
-      <p class="subtitle">目前實作：上班車第 1–20 線｜Excel 統一維護｜Google Maps 自動定位</p>
+      <p class="subtitle">目前實作：上班車第 1–60 線｜Excel 統一維護｜Google Maps 自動定位</p>
     </div>
     <div class="top-note">選擇路線時，由 Google Maps 依「定位搜尋文字」自動找站點；Excel 仍是唯一維護來源。</div>
   </header>
@@ -24,13 +24,14 @@
         <button class="tab" type="button" disabled title="下一階段實作">加班車</button>
       </div>
 
-      <label class="search-label" for="routeSearch">搜尋路線</label>
-      <input id="routeSearch" class="search-input" type="search" placeholder="例如：新竹、基隆、20" autocomplete="off" />
+      <label class="route-select-label" for="routeSelect">選擇上班路線</label>
+      <select id="routeSelect" class="route-select" aria-label="選擇上班交通車路線">
+        <option value="">讀取路線中…</option>
+      </select>
 
       <div class="route-summary">
-        <strong id="routeCount">20</strong> 條上班路線
+        共 <strong id="routeCount">60</strong> 條上班路線
       </div>
-      <nav id="routeList" class="route-list" aria-live="polite"></nav>
     </aside>
 
     <section class="content">
@@ -59,14 +60,6 @@
       </section>
     </section>
   </main>
-
-  <template id="routeButtonTemplate">
-    <button class="route-button" type="button">
-      <span class="route-number"></span>
-      <span class="route-name"></span>
-      <span class="route-stop-count"></span>
-    </button>
-  </template>
 
   <template id="stopTemplate">
     <article class="stop-card">

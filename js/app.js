@@ -1,14 +1,12 @@
 (async function () {
   const el = {
-    routeList: document.getElementById('routeList'),
-    routeSearch: document.getElementById('routeSearch'),
+    routeSelect: document.getElementById('routeSelect'),
     routeCount: document.getElementById('routeCount'),
     routeTitle: document.getElementById('routeTitle'),
     routeDescription: document.getElementById('routeDescription'),
     routeKicker: document.getElementById('routeKicker'),
     stopList: document.getElementById('stopList'),
     stopCount: document.getElementById('stopCount'),
-    routeButtonTemplate: document.getElementById('routeButtonTemplate'),
     stopTemplate: document.getElementById('stopTemplate')
   };
 
@@ -36,8 +34,11 @@
       shuttleMap.setStatus(`${mapError.message}；站點清單與地址導航仍可使用。`);
     }
 
-    renderRouteList(state.routes);
-    if (state.routes.length) await selectRoute(state.routes[0].id);
+    renderRouteSelect(state.routes);
+    if (state.routes.length) {
+      el.routeSelect.value = state.routes[0].id;
+      await selectRoute(state.routes[0].id);
+    }
   } catch (error) {
     console.error(error);
     shuttleMap.setStatus('資料讀取失敗。請用 HTTP server 或 GitHub Pages 開啟本頁。');
@@ -45,49 +46,37 @@
     el.routeDescription.textContent = '若直接雙擊 index.html，瀏覽器可能阻擋 JSON 載入。請執行 start.bat。';
   }
 
-  el.routeSearch.addEventListener('input', () => {
-    const q = el.routeSearch.value.trim().toLowerCase();
-    const filtered = state.routes.filter(route => {
-      if (route.name.toLowerCase().includes(q) || String(route.number).includes(q)) return true;
-      return route.stops.some(entry => {
-        const location = state.locations[entry.locationId];
-        if (!location) return false;
-        return [location.displayName, location.landmark, location.sourceText]
-          .filter(Boolean)
-          .some(value => value.toLowerCase().includes(q));
-      });
-    });
-    renderRouteList(filtered);
+  el.routeSelect.addEventListener('change', () => {
+    if (el.routeSelect.value) void selectRoute(el.routeSelect.value);
   });
 
-  function renderRouteList(routes) {
-    el.routeList.replaceChildren();
+  function renderRouteSelect(routes) {
+    el.routeSelect.replaceChildren();
     el.routeCount.textContent = routes.length;
+
     if (!routes.length) {
-      const empty = document.createElement('div');
-      empty.className = 'empty';
-      empty.textContent = '沒有符合的路線或站點';
-      el.routeList.appendChild(empty);
+      const option = document.createElement('option');
+      option.value = '';
+      option.textContent = '目前沒有路線資料';
+      el.routeSelect.appendChild(option);
+      el.routeSelect.disabled = true;
       return;
     }
 
-    routes.forEach(route => {
-      const node = el.routeButtonTemplate.content.firstElementChild.cloneNode(true);
-      node.dataset.routeId = route.id;
-      node.querySelector('.route-number').textContent = String(route.number).padStart(2, '0');
-      node.querySelector('.route-name').textContent = route.name;
-      node.querySelector('.route-stop-count').textContent = `${route.stops.length} 站`;
-      if (route.id === state.selectedRouteId) node.classList.add('active');
-      node.addEventListener('click', () => void selectRoute(route.id));
-      el.routeList.appendChild(node);
-    });
+    routes
+      .slice()
+      .sort((a, b) => Number(a.number) - Number(b.number))
+      .forEach(route => {
+        const option = document.createElement('option');
+        option.value = route.id;
+        option.textContent = `第 ${String(route.number).padStart(2, '0')} 線｜${route.name}（${route.stops.length}站）`;
+        el.routeSelect.appendChild(option);
+      });
   }
 
   async function selectRoute(routeId) {
     state.selectedRouteId = routeId;
-    document.querySelectorAll('.route-button').forEach(btn => {
-      btn.classList.toggle('active', btn.dataset.routeId === routeId);
-    });
+    el.routeSelect.value = routeId;
 
     const route = state.routes.find(item => item.id === routeId);
     if (!route) return;
