@@ -206,3 +206,16 @@ h3 { margin: 0; font-size: 22px; }
 }
 
 
+
+.route-note {
+  max-width: 900px;
+  margin: 9px 0 0;
+  padding: 9px 11px;
+  border-left: 3px solid #d4a329;
+  border-radius: 4px;
+  background: #fff8df;
+  color: #6f5414;
+  font-size: 12px;
+  line-height: 1.6;
+}
+.stop-time:empty { display: none; }

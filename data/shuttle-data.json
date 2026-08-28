@@ -1158,6 +1158,1110 @@
       "sourceText": "中正路75巷口(公車站牌)",
       "geocodeQuery": "新北市新店區中正路75巷口",
       "notes": ""
+    },
+    "S145": {
+      "id": "S145",
+      "displayName": "行善路158號",
+      "landmark": "內湖辦公區",
+      "sourceText": "內湖區行善路158號(內湖辦公區)",
+      "geocodeQuery": "台北市內湖區行善路158號",
+      "notes": ""
+    },
+    "S146": {
+      "id": "S146",
+      "displayName": "新台五路一段88號",
+      "landmark": "宏碁大樓 / 汐止發車點",
+      "sourceText": "汐止區新台五路一段88號(宏碁大樓)",
+      "geocodeQuery": "新北市汐止區新台五路一段88號",
+      "notes": ""
+    },
+    "S147": {
+      "id": "S147",
+      "displayName": "新台五路／百三街口",
+      "landmark": "",
+      "sourceText": "新台五百三街口",
+      "geocodeQuery": "基隆市七堵區新台五路 百三街口",
+      "notes": "依上排行駛路線「汐止→基隆」補全為新台五路／百三街口。"
+    },
+    "S148": {
+      "id": "S148",
+      "displayName": "明德一路171號",
+      "landmark": "七堵郵局",
+      "sourceText": "明德一路171號(七堵郵局)",
+      "geocodeQuery": "基隆市七堵區明德一路171號",
+      "notes": ""
+    },
+    "S149": {
+      "id": "S149",
+      "displayName": "仁三路（基隆廟口）",
+      "landmark": "基隆廟口",
+      "sourceText": "仁愛區玉田里仁三路(基隆廟口)",
+      "geocodeQuery": "基隆市仁愛區仁三路 基隆廟口",
+      "notes": ""
+    },
+    "S150": {
+      "id": "S150",
+      "displayName": "忠二路13號",
+      "landmark": "肯德基門口",
+      "sourceText": "忠二路13號(肯得基門口)",
+      "geocodeQuery": "基隆市仁愛區忠二路13號",
+      "notes": ""
+    },
+    "S151": {
+      "id": "S151",
+      "displayName": "延平路155號",
+      "landmark": "天成醫院",
+      "sourceText": "延平路155號(天成醫院)",
+      "geocodeQuery": "桃園市中壢區延平路155號",
+      "notes": ""
+    },
+    "S152": {
+      "id": "S152",
+      "displayName": "中央東路88號",
+      "landmark": "錢櫃KTV",
+      "sourceText": "中央東路88號(錢櫃ktv)",
+      "geocodeQuery": "桃園市中壢區中央東路88號",
+      "notes": ""
+    },
+    "S153": {
+      "id": "S153",
+      "displayName": "延平路二段56號",
+      "landmark": "陽明醫院",
+      "sourceText": "平鎮區延平路二段56號(陽明醫院)",
+      "geocodeQuery": "桃園市平鎮區延平路二段56號",
+      "notes": ""
+    },
+    "S154": {
+      "id": "S154",
+      "displayName": "延平路二段323號",
+      "landmark": "長江加油站",
+      "sourceText": "延平路二段323號(長江加油站)",
+      "geocodeQuery": "桃園市平鎮區延平路二段323號",
+      "notes": ""
+    },
+    "S155": {
+      "id": "S155",
+      "displayName": "中豐路379號",
+      "landmark": "思夢樂",
+      "sourceText": "中豐路379號(思夢樂)",
+      "geocodeQuery": "桃園市平鎮區中豐路379號",
+      "notes": ""
+    },
+    "S156": {
+      "id": "S156",
+      "displayName": "東園路43號",
+      "landmark": "高拉力機械有限公司",
+      "sourceText": "東園路43號(高拉力機械有限公司)",
+      "geocodeQuery": "桃園市中壢區東園路43號",
+      "notes": ""
+    },
+    "S157": {
+      "id": "S157",
+      "displayName": "中園路147號",
+      "landmark": "長勝電動麻將桌",
+      "sourceText": "中園路147號(長勝電動麻將桌)",
+      "geocodeQuery": "桃園市中壢區中園路147號",
+      "notes": ""
+    },
+    "S158": {
+      "id": "S158",
+      "displayName": "中央公園",
+      "landmark": "中壢中央公園",
+      "sourceText": "中央公園",
+      "geocodeQuery": "桃園市中壢區中央公園",
+      "notes": ""
+    },
+    "S159": {
+      "id": "S159",
+      "displayName": "經國路737號",
+      "landmark": "星巴克",
+      "sourceText": "經國路737號(星巴克)",
+      "geocodeQuery": "桃園市桃園區經國路737號",
+      "notes": ""
+    },
+    "S160": {
+      "id": "S160",
+      "displayName": "經國路495號",
+      "landmark": "麥當勞",
+      "sourceText": "經國路495號(麥當勞)",
+      "geocodeQuery": "桃園市桃園區經國路495號",
+      "notes": ""
+    },
+    "S161": {
+      "id": "S161",
+      "displayName": "經國路369號",
+      "landmark": "家樂福",
+      "sourceText": "經國路369號(家樂福)",
+      "geocodeQuery": "桃園市桃園區經國路369號",
+      "notes": ""
+    },
+    "S162": {
+      "id": "S162",
+      "displayName": "經國路451號",
+      "landmark": "全家",
+      "sourceText": "經國路451號(全家)",
+      "geocodeQuery": "桃園市桃園區經國路451號",
+      "notes": ""
+    },
+    "S163": {
+      "id": "S163",
+      "displayName": "民生路535號",
+      "landmark": "7-11",
+      "sourceText": "民生路535號(7-11)",
+      "geocodeQuery": "桃園市桃園區民生路535號",
+      "notes": ""
+    },
+    "S164": {
+      "id": "S164",
+      "displayName": "成功路／民生路口",
+      "landmark": "公車站牌前",
+      "sourceText": "成功路民生路站牌前",
+      "geocodeQuery": "桃園市桃園區成功路 民生路口",
+      "notes": "依上排行駛路線「民生路→成功路」補全為成功路／民生路口。"
+    },
+    "S165": {
+      "id": "S165",
+      "displayName": "復興路／民權路口",
+      "landmark": "公車站牌前",
+      "sourceText": "復興路民權路口站牌前",
+      "geocodeQuery": "桃園市桃園區復興路 民權路口",
+      "notes": ""
+    },
+    "S166": {
+      "id": "S166",
+      "displayName": "復興路台電大樓站牌",
+      "landmark": "台電大樓站牌",
+      "sourceText": "台電大樓站牌前",
+      "geocodeQuery": "桃園市桃園區復興路 台電大樓",
+      "notes": "依上排行駛路線「民權路→復興路→中山路」補上復興路脈絡。"
+    },
+    "S167": {
+      "id": "S167",
+      "displayName": "中山路／正光街口",
+      "landmark": "公車站牌前",
+      "sourceText": "中山路正光街口站牌前",
+      "geocodeQuery": "桃園市桃園區中山路 正光街口",
+      "notes": ""
+    },
+    "S168": {
+      "id": "S168",
+      "displayName": "中山路／龍安街口",
+      "landmark": "紅綠燈前",
+      "sourceText": "中山路龍安街紅綠燈前",
+      "geocodeQuery": "桃園市桃園區中山路 龍安街口",
+      "notes": ""
+    },
+    "S169": {
+      "id": "S169",
+      "displayName": "新南路一段165號",
+      "landmark": "天香回味餐廳",
+      "sourceText": "蘆竹新南路一段165號(天香回味餐廳)",
+      "geocodeQuery": "桃園市蘆竹區新南路一段165號",
+      "notes": ""
+    },
+    "S170": {
+      "id": "S170",
+      "displayName": "復興一路／文化二路一段口",
+      "landmark": "",
+      "sourceText": "復興一路、文化二路一段路口",
+      "geocodeQuery": "桃園市龜山區復興一路 文化二路一段路口",
+      "notes": "依上排行駛路線補全林口第二交流道周邊道路脈絡。"
+    },
+    "S171": {
+      "id": "S171",
+      "displayName": "文化二路一段106號",
+      "landmark": "公車站牌三井站",
+      "sourceText": "文化二路一段106號（公車站牌三井站）",
+      "geocodeQuery": "新北市林口區文化二路一段106號",
+      "notes": ""
+    },
+    "S172": {
+      "id": "S172",
+      "displayName": "光復路二段36號",
+      "landmark": "海瑞貢丸",
+      "sourceText": "光復路二段36號(海瑞貢丸)",
+      "geocodeQuery": "新竹市東區光復路二段36號",
+      "notes": ""
+    },
+    "S173": {
+      "id": "S173",
+      "displayName": "國立清華大學",
+      "landmark": "清華大學",
+      "sourceText": "清華大學",
+      "geocodeQuery": "新竹市東區國立清華大學 光復路二段",
+      "notes": ""
+    },
+    "S174": {
+      "id": "S174",
+      "displayName": "光復路二段752號",
+      "landmark": "必勝客",
+      "sourceText": "光復路二段752號(必勝客)",
+      "geocodeQuery": "新竹市東區光復路二段752號",
+      "notes": ""
+    },
+    "S175": {
+      "id": "S175",
+      "displayName": "東大路／南大路口",
+      "landmark": "",
+      "sourceText": "東大南大路口",
+      "geocodeQuery": "新竹市東區東大路 南大路口",
+      "notes": ""
+    },
+    "S176": {
+      "id": "S176",
+      "displayName": "新竹轉運站",
+      "landmark": "",
+      "sourceText": "新竹轉運站",
+      "geocodeQuery": "新竹市東區新竹轉運站",
+      "notes": ""
+    },
+    "S177": {
+      "id": "S177",
+      "displayName": "南大路／食品路口",
+      "landmark": "",
+      "sourceText": "南大路食品路口",
+      "geocodeQuery": "新竹市東區南大路 食品路口",
+      "notes": ""
+    },
+    "S178": {
+      "id": "S178",
+      "displayName": "永昌路355號",
+      "landmark": "全家",
+      "sourceText": "大溪區永昌路355號(全家)",
+      "geocodeQuery": "桃園市大溪區永昌路355號",
+      "notes": ""
+    },
+    "S179": {
+      "id": "S179",
+      "displayName": "大昌路二段172號",
+      "landmark": "台聯客運",
+      "sourceText": "龍潭大昌路二段172號(台聯客運)",
+      "geocodeQuery": "桃園市龍潭區大昌路二段172號",
+      "notes": ""
+    },
+    "S180": {
+      "id": "S180",
+      "displayName": "重陽路／忠孝路口",
+      "landmark": "三重交流道下，過忠孝路口",
+      "sourceText": "三重交流道下，重陽路過忠孝路口停靠下客人",
+      "geocodeQuery": "新北市三重區重陽路 忠孝路口",
+      "notes": "依上排行駛路線補全為重陽路／忠孝路口。"
+    },
+    "S181": {
+      "id": "S181",
+      "displayName": "全家便利商店 三重九陽店",
+      "landmark": "終點",
+      "sourceText": "三重九陽店（全家便利商店門口）下客人結束。",
+      "geocodeQuery": "新北市三重區 全家便利商店 三重九陽店",
+      "notes": "PDF未提供門牌，使用店名作為 Google Maps 定位搜尋文字。"
+    },
+    "S182": {
+      "id": "S182",
+      "displayName": "中原路49號",
+      "landmark": "公車站",
+      "sourceText": "蘆洲區中原路49號(公車站)",
+      "geocodeQuery": "新北市蘆洲區中原路49號",
+      "notes": ""
+    },
+    "S183": {
+      "id": "S183",
+      "displayName": "捷運蘆洲站",
+      "landmark": "三民路／中正路口公車站",
+      "sourceText": "捷運蘆洲站(公車站)新北市蘆洲三民路/中正路口",
+      "geocodeQuery": "新北市蘆洲區捷運蘆洲站",
+      "notes": ""
+    },
+    "S184": {
+      "id": "S184",
+      "displayName": "三民路221號",
+      "landmark": "空中大學",
+      "sourceText": "三民路221號(空中大學)",
+      "geocodeQuery": "新北市蘆洲區三民路221號",
+      "notes": ""
+    },
+    "S185": {
+      "id": "S185",
+      "displayName": "三民路25號",
+      "landmark": "摩曼頓三民店",
+      "sourceText": "摩曼頓(三民店)新北市蘆洲區三民路25號",
+      "geocodeQuery": "新北市蘆洲區三民路25號",
+      "notes": ""
+    },
+    "S186": {
+      "id": "S186",
+      "displayName": "中平路363號",
+      "landmark": "瑞和中醫診所 / 公車站",
+      "sourceText": "中平路363號瑞和中醫診所(公車站)",
+      "geocodeQuery": "新北市新莊區中平路363號",
+      "notes": ""
+    },
+    "S187": {
+      "id": "S187",
+      "displayName": "中平路269號",
+      "landmark": "中信房屋 / 樂家藥局",
+      "sourceText": "中平路269號(中信房屋或樂家藥局)",
+      "geocodeQuery": "新北市新莊區中平路269號",
+      "notes": ""
+    },
+    "S188": {
+      "id": "S188",
+      "displayName": "幸福路651號",
+      "landmark": "劉茂祥診所",
+      "sourceText": "幸福路651號(劉茂祥診所)",
+      "geocodeQuery": "新北市新莊區幸福路651號",
+      "notes": ""
+    },
+    "S189": {
+      "id": "S189",
+      "displayName": "幸福路／福壽街口",
+      "landmark": "",
+      "sourceText": "辛福路與福壽街口前後",
+      "geocodeQuery": "新北市新莊區幸福路 福壽街口",
+      "notes": "PDF下排寫「辛福路」；依上排行駛路線修正定位為「幸福路／福壽街口」。"
+    },
+    "S190": {
+      "id": "S190",
+      "displayName": "捷運新埔站2號出口",
+      "landmark": "民生路／文化路旁",
+      "sourceText": "板橋民生路過文化路旁新埔2號出口",
+      "geocodeQuery": "新北市板橋區捷運新埔站2號出口",
+      "notes": ""
+    },
+    "S191": {
+      "id": "S191",
+      "displayName": "新泰路／中環路口",
+      "landmark": "公車站",
+      "sourceText": "新泰路、中環路口公車站",
+      "geocodeQuery": "新北市新莊區新泰路 中環路口",
+      "notes": ""
+    },
+    "S192": {
+      "id": "S192",
+      "displayName": "新泰國中",
+      "landmark": "校門口",
+      "sourceText": "新泰國中門口",
+      "geocodeQuery": "新北市新莊區新泰國中",
+      "notes": ""
+    },
+    "S193": {
+      "id": "S193",
+      "displayName": "新泰路／公園路口",
+      "landmark": "",
+      "sourceText": "新泰路、公園路口前",
+      "geocodeQuery": "新北市新莊區新泰路 公園路口",
+      "notes": ""
+    },
+    "S194": {
+      "id": "S194",
+      "displayName": "公園路／中正路口",
+      "landmark": "",
+      "sourceText": "公園路、中正路口前",
+      "geocodeQuery": "新北市新莊區公園路 中正路口",
+      "notes": ""
+    },
+    "S195": {
+      "id": "S195",
+      "displayName": "輔仁大學",
+      "landmark": "校門口",
+      "sourceText": "輔仁大學門口",
+      "geocodeQuery": "新北市新莊區輔仁大學",
+      "notes": ""
+    },
+    "S196": {
+      "id": "S196",
+      "displayName": "重慶北路四段58號",
+      "landmark": "公車站牌",
+      "sourceText": "重慶北路四段58號（公車站牌）",
+      "geocodeQuery": "台北市士林區重慶北路四段58號",
+      "notes": ""
+    },
+    "S197": {
+      "id": "S197",
+      "displayName": "中正路429號",
+      "landmark": "機車用品店",
+      "sourceText": "中正路429號（機車用車店）",
+      "geocodeQuery": "台北市士林區中正路429號",
+      "notes": ""
+    },
+    "S198": {
+      "id": "S198",
+      "displayName": "捷運士林站",
+      "landmark": "中正路側",
+      "sourceText": "捷運士林站（中正）",
+      "geocodeQuery": "台北市士林區捷運士林站 中正路",
+      "notes": ""
+    },
+    "S199": {
+      "id": "S199",
+      "displayName": "忠誠公園",
+      "landmark": "公車站牌",
+      "sourceText": "忠誠公園（公車站牌）",
+      "geocodeQuery": "台北市士林區忠誠公園",
+      "notes": ""
+    },
+    "S200": {
+      "id": "S200",
+      "displayName": "大葉高島屋",
+      "landmark": "",
+      "sourceText": "大葉高島屋",
+      "geocodeQuery": "台北市士林區大葉高島屋",
+      "notes": ""
+    },
+    "S201": {
+      "id": "S201",
+      "displayName": "天母東路1之6號",
+      "landmark": "公車站牌",
+      "sourceText": "天母東路1之6號（公車站牌）",
+      "geocodeQuery": "台北市士林區天母東路1之6號",
+      "notes": ""
+    },
+    "S202": {
+      "id": "S202",
+      "displayName": "天母西路73號",
+      "landmark": "媽咪咖啡館",
+      "sourceText": "天母西路73號（媽咪咖啡館）",
+      "geocodeQuery": "台北市士林區天母西路73號",
+      "notes": ""
+    },
+    "S203": {
+      "id": "S203",
+      "displayName": "捷運唭哩岸站",
+      "landmark": "東華街側",
+      "sourceText": "捷運唭哩岸站（東華）",
+      "geocodeQuery": "台北市北投區捷運唭哩岸站 東華街",
+      "notes": ""
+    },
+    "S204": {
+      "id": "S204",
+      "displayName": "重慶北路／酒泉街口",
+      "landmark": "公車站牌",
+      "sourceText": "重慶北路左轉酒泉街(公車站牌)",
+      "geocodeQuery": "台北市大同區重慶北路 酒泉街口",
+      "notes": "依上排行駛路線補全為重慶北路／酒泉街口。"
+    },
+    "S205": {
+      "id": "S205",
+      "displayName": "酒泉街／承德路口",
+      "landmark": "",
+      "sourceText": "酒泉街與承德路口",
+      "geocodeQuery": "台北市大同區酒泉街 承德路口",
+      "notes": ""
+    },
+    "S206": {
+      "id": "S206",
+      "displayName": "承德路／民權西路口",
+      "landmark": "近捷運民權西路站",
+      "sourceText": "承德路與民權西路口",
+      "geocodeQuery": "台北市大同區承德路 民權西路口",
+      "notes": ""
+    },
+    "S207": {
+      "id": "S207",
+      "displayName": "成功路二段上灣仔公車站",
+      "landmark": "",
+      "sourceText": "成功路二段上灣仔公車站",
+      "geocodeQuery": "台北市內湖區成功路二段 上灣仔公車站",
+      "notes": ""
+    },
+    "S208": {
+      "id": "S208",
+      "displayName": "方濟中學公車站",
+      "landmark": "",
+      "sourceText": "方濟中學公車站牌",
+      "geocodeQuery": "台北市內湖區方濟中學 公車站",
+      "notes": ""
+    },
+    "S209": {
+      "id": "S209",
+      "displayName": "捷運文德站",
+      "landmark": "",
+      "sourceText": "文德捷運站",
+      "geocodeQuery": "台北市內湖區捷運文德站",
+      "notes": ""
+    },
+    "S210": {
+      "id": "S210",
+      "displayName": "文德路中信房屋",
+      "landmark": "",
+      "sourceText": "文德路中信房屋",
+      "geocodeQuery": "台北市內湖區文德路 中信房屋",
+      "notes": "PDF未提供門牌，使用道路＋地標定位。"
+    },
+    "S211": {
+      "id": "S211",
+      "displayName": "內湖路一段麥當勞",
+      "landmark": "",
+      "sourceText": "內湖路一段麥當勞",
+      "geocodeQuery": "台北市內湖區內湖路一段 麥當勞",
+      "notes": "PDF未提供門牌，使用道路＋地標定位。"
+    },
+    "S212": {
+      "id": "S212",
+      "displayName": "捷運港墘站",
+      "landmark": "",
+      "sourceText": "港墘捷運站",
+      "geocodeQuery": "台北市內湖區捷運港墘站",
+      "notes": ""
+    },
+    "S213": {
+      "id": "S213",
+      "displayName": "捷運西湖站",
+      "landmark": "",
+      "sourceText": "西湖捷運站",
+      "geocodeQuery": "台北市內湖區捷運西湖站",
+      "notes": ""
+    },
+    "S214": {
+      "id": "S214",
+      "displayName": "來來豆漿店",
+      "landmark": "",
+      "sourceText": "來來豆漿店",
+      "geocodeQuery": "台北市內湖區內湖路 來來豆漿店",
+      "notes": "依上排行駛路線補上內湖路脈絡。"
+    },
+    "S215": {
+      "id": "S215",
+      "displayName": "捷運劍南路站",
+      "landmark": "",
+      "sourceText": "劍南捷運站",
+      "geocodeQuery": "台北市中山區捷運劍南路站",
+      "notes": ""
+    },
+    "S216": {
+      "id": "S216",
+      "displayName": "自強隧道口公車站",
+      "landmark": "",
+      "sourceText": "自強遂道口公車站",
+      "geocodeQuery": "台北市中山區自強隧道口 公車站",
+      "notes": ""
+    },
+    "S217": {
+      "id": "S217",
+      "displayName": "中山北路四段67號",
+      "landmark": "劍潭公園土地公廟",
+      "sourceText": "中山區中山北路四段67號(劍潭公園土地公廟)",
+      "geocodeQuery": "台北市中山區中山北路四段67號",
+      "notes": ""
+    },
+    "S218": {
+      "id": "S218",
+      "displayName": "南京東路／舊宗路口",
+      "landmark": "",
+      "sourceText": "南京舊宗路口",
+      "geocodeQuery": "台北市內湖區南京東路六段 舊宗路口",
+      "notes": "依上排行駛路線「沿南京東路直行」補全。"
+    },
+    "S219": {
+      "id": "S219",
+      "displayName": "南京東路／東興路口",
+      "landmark": "",
+      "sourceText": "南京東興路口",
+      "geocodeQuery": "台北市松山區南京東路五段 東興路口",
+      "notes": ""
+    },
+    "S220": {
+      "id": "S220",
+      "displayName": "南京東路五段129巷口",
+      "landmark": "",
+      "sourceText": "南京東路五段129巷口",
+      "geocodeQuery": "台北市松山區南京東路五段129巷口",
+      "notes": ""
+    },
+    "S221": {
+      "id": "S221",
+      "displayName": "南京東路四段133巷口",
+      "landmark": "",
+      "sourceText": "南京的東路四段133巷口",
+      "geocodeQuery": "台北市松山區南京東路四段133巷口",
+      "notes": "PDF文字「南京的東路」依道路名稱修正顯示為南京東路。"
+    },
+    "S222": {
+      "id": "S222",
+      "displayName": "南京東路／復興北路口",
+      "landmark": "",
+      "sourceText": "南京復興北路口",
+      "geocodeQuery": "台北市松山區南京東路 復興北路口",
+      "notes": ""
+    },
+    "S223": {
+      "id": "S223",
+      "displayName": "南京東路／松江路口",
+      "landmark": "",
+      "sourceText": "南京松江路口",
+      "geocodeQuery": "台北市中山區南京東路 松江路口",
+      "notes": ""
+    },
+    "S224": {
+      "id": "S224",
+      "displayName": "南京東路／林森北路口",
+      "landmark": "",
+      "sourceText": "南京北林森路口",
+      "geocodeQuery": "台北市中山區南京東路 林森北路口",
+      "notes": ""
+    },
+    "S225": {
+      "id": "S225",
+      "displayName": "承德路／長安西路口",
+      "landmark": "",
+      "sourceText": "承德路長安西路口",
+      "geocodeQuery": "台北市大同區承德路 長安西路口",
+      "notes": ""
+    },
+    "S226": {
+      "id": "S226",
+      "displayName": "大安運動中心",
+      "landmark": "",
+      "sourceText": "大安運動中心",
+      "geocodeQuery": "台北市大安區大安運動中心 辛亥路",
+      "notes": "依上排行駛路線補上辛亥路脈絡。"
+    },
+    "S227": {
+      "id": "S227",
+      "displayName": "辛亥路／復興南路口",
+      "landmark": "過路口",
+      "sourceText": "過復興南路",
+      "geocodeQuery": "台北市大安區辛亥路 復興南路口",
+      "notes": "下排僅寫「過復興南路」；依上排當時車輛行駛辛亥路，補全為辛亥路／復興南路口。"
+    },
+    "S228": {
+      "id": "S228",
+      "displayName": "新生南路／辛亥路口",
+      "landmark": "",
+      "sourceText": "新生南路辛亥路",
+      "geocodeQuery": "台北市大安區新生南路 辛亥路口",
+      "notes": ""
+    },
+    "S229": {
+      "id": "S229",
+      "displayName": "捷運公館站",
+      "landmark": "",
+      "sourceText": "公館捷運站",
+      "geocodeQuery": "台北市中正區捷運公館站",
+      "notes": ""
+    },
+    "S230": {
+      "id": "S230",
+      "displayName": "羅斯福路／興隆路口",
+      "landmark": "",
+      "sourceText": "興隆路口",
+      "geocodeQuery": "台北市文山區羅斯福路 興隆路口",
+      "notes": "依上排「左轉羅斯福路直行」補全。"
+    },
+    "S231": {
+      "id": "S231",
+      "displayName": "羅斯福路／萬隆街口",
+      "landmark": "",
+      "sourceText": "萬隆街口",
+      "geocodeQuery": "台北市文山區羅斯福路 萬隆街口",
+      "notes": "依上排「羅斯福路直行」補全。"
+    },
+    "S232": {
+      "id": "S232",
+      "displayName": "捷運景美站",
+      "landmark": "",
+      "sourceText": "景美捷運站",
+      "geocodeQuery": "台北市文山區捷運景美站",
+      "notes": ""
+    },
+    "S233": {
+      "id": "S233",
+      "displayName": "捷運大坪林站",
+      "landmark": "",
+      "sourceText": "大坪林捷運站",
+      "geocodeQuery": "新北市新店區捷運大坪林站",
+      "notes": ""
+    },
+    "S234": {
+      "id": "S234",
+      "displayName": "捷運木柵站",
+      "landmark": "",
+      "sourceText": "木柵捷運站",
+      "geocodeQuery": "台北市文山區捷運木柵站",
+      "notes": ""
+    },
+    "S235": {
+      "id": "S235",
+      "displayName": "萬芳路／秀明路口",
+      "landmark": "",
+      "sourceText": "秀明路口",
+      "geocodeQuery": "台北市文山區萬芳路 秀明路口",
+      "notes": "依上排「木柵捷運站→萬芳→木柵路」補全為萬芳路／秀明路口。"
+    },
+    "S236": {
+      "id": "S236",
+      "displayName": "萬芳路／木柵路二段口",
+      "landmark": "",
+      "sourceText": "木柵路二段路口",
+      "geocodeQuery": "台北市文山區萬芳路 木柵路二段路口",
+      "notes": "依上排由萬芳銜接木柵路，補全定位脈絡。"
+    },
+    "S237": {
+      "id": "S237",
+      "displayName": "木柵路／興隆路口",
+      "landmark": "",
+      "sourceText": "興隆路口",
+      "geocodeQuery": "台北市文山區木柵路 興隆路口",
+      "notes": "依上排車輛已進入木柵路補全。"
+    },
+    "S238": {
+      "id": "S238",
+      "displayName": "木柵路／光輝路口",
+      "landmark": "",
+      "sourceText": "光輝路口",
+      "geocodeQuery": "台北市文山區木柵路 光輝路口",
+      "notes": "依上排車輛行駛木柵路補全。"
+    },
+    "S239": {
+      "id": "S239",
+      "displayName": "景興路口 7-11",
+      "landmark": "7-11",
+      "sourceText": "中興路口7-11",
+      "geocodeQuery": "台北市文山區木柵路 景興路口 7-11",
+      "notes": "PDF下排文字為「中興路口7-11」；依上排木柵路往景美街的道路連續性，定位搜尋採木柵路／景興路口。PDF原文仍保留供人工核對。"
+    },
+    "S240": {
+      "id": "S240",
+      "displayName": "車前路 永豐銀行",
+      "landmark": "永豐銀行",
+      "sourceText": "車前路 永豐銀行",
+      "geocodeQuery": "台北市文山區車前路 永豐銀行",
+      "notes": ""
+    },
+    "S241": {
+      "id": "S241",
+      "displayName": "捷運台電大樓站2號出口",
+      "landmark": "",
+      "sourceText": "捷運台電大樓站2號出口",
+      "geocodeQuery": "台北市中正區捷運台電大樓站2號出口",
+      "notes": ""
+    },
+    "S242": {
+      "id": "S242",
+      "displayName": "捷運古亭站3號出口",
+      "landmark": "",
+      "sourceText": "捷運古亭站3號出口",
+      "geocodeQuery": "台北市中正區捷運古亭站3號出口",
+      "notes": ""
+    },
+    "S243": {
+      "id": "S243",
+      "displayName": "羅斯福路一段43號",
+      "landmark": "大撰生猛海鮮",
+      "sourceText": "羅斯福路一段43號(大撰生猛海鮮)",
+      "geocodeQuery": "台北市中正區羅斯福路一段43號",
+      "notes": ""
+    },
+    "S244": {
+      "id": "S244",
+      "displayName": "忠孝東路／基隆路口",
+      "landmark": "",
+      "sourceText": "基隆路.忠孝東路口",
+      "geocodeQuery": "台北市信義區忠孝東路 基隆路口",
+      "notes": ""
+    },
+    "S245": {
+      "id": "S245",
+      "displayName": "忠孝東路／光復南路口",
+      "landmark": "站牌",
+      "sourceText": "光復北路站牌",
+      "geocodeQuery": "台北市大安區忠孝東路 光復南路口",
+      "notes": "上排明確沿忠孝東路往西，該交叉口道路為光復南路；保留PDF原文於「PDF原文」。"
+    },
+    "S246": {
+      "id": "S246",
+      "displayName": "忠孝東路／敦化南路口",
+      "landmark": "站牌",
+      "sourceText": "敦化北路站牌",
+      "geocodeQuery": "台北市大安區忠孝東路 敦化南路口",
+      "notes": "依上排行駛忠孝東路脈絡修正定位道路方向。"
+    },
+    "S247": {
+      "id": "S247",
+      "displayName": "忠孝東路／大安路口",
+      "landmark": "NET",
+      "sourceText": "大安街(NET)",
+      "geocodeQuery": "台北市大安區忠孝東路 大安路口 NET",
+      "notes": "依上下排脈絡將大安街站定位於忠孝東路／大安路口附近。"
+    },
+    "S248": {
+      "id": "S248",
+      "displayName": "忠孝東路／復興南路口",
+      "landmark": "站牌",
+      "sourceText": "復興北路站牌",
+      "geocodeQuery": "台北市大安區忠孝東路 復興南路口",
+      "notes": "依上排行駛忠孝東路脈絡修正定位道路方向。"
+    },
+    "S249": {
+      "id": "S249",
+      "displayName": "忠孝東路／建國南路口",
+      "landmark": "終點站",
+      "sourceText": "建國北路口(最終站)",
+      "geocodeQuery": "台北市大安區忠孝東路 建國南路口",
+      "notes": "上排明確寫「忠孝東路/建國南路交叉口」，以此作定位。"
+    },
+    "S250": {
+      "id": "S250",
+      "displayName": "忠孝東路／研究院路口",
+      "landmark": "",
+      "sourceText": "研究院路右轉忠孝東路停",
+      "geocodeQuery": "台北市南港區忠孝東路 研究院路口",
+      "notes": ""
+    },
+    "S251": {
+      "id": "S251",
+      "displayName": "捷運昆陽站",
+      "landmark": "",
+      "sourceText": "捷運昆陽站",
+      "geocodeQuery": "台北市南港區捷運昆陽站",
+      "notes": ""
+    },
+    "S252": {
+      "id": "S252",
+      "displayName": "捷運後山埤站",
+      "landmark": "",
+      "sourceText": "捷運後山埤站",
+      "geocodeQuery": "台北市南港區捷運後山埤站",
+      "notes": ""
+    },
+    "S253": {
+      "id": "S253",
+      "displayName": "捷運永春站",
+      "landmark": "",
+      "sourceText": "捷運永春站",
+      "geocodeQuery": "台北市信義區捷運永春站",
+      "notes": ""
+    },
+    "S254": {
+      "id": "S254",
+      "displayName": "忠孝東路／松仁路口",
+      "landmark": "",
+      "sourceText": "忠孝東路松仁路口",
+      "geocodeQuery": "台北市信義區忠孝東路 松仁路口",
+      "notes": ""
+    },
+    "S255": {
+      "id": "S255",
+      "displayName": "京城銀行雙和分行",
+      "landmark": "",
+      "sourceText": "(京銀銀行雙和分行)",
+      "geocodeQuery": "新北市中和區 京城銀行雙和分行",
+      "notes": "PDF未提供門牌；依上排進入中和中正路/中山路走廊，加上中和區域定位。"
+    },
+    "S256": {
+      "id": "S256",
+      "displayName": "鑫順專業檳榔",
+      "landmark": "",
+      "sourceText": "(鑫順專業檳榔)",
+      "geocodeQuery": "新北市中和區 鑫順專業檳榔",
+      "notes": "PDF未提供門牌；依上排行駛區域加上中和區定位。"
+    },
+    "S257": {
+      "id": "S257",
+      "displayName": "民生路一段52號",
+      "landmark": "麻油雞",
+      "sourceText": "民生路一段52號(麻油雞)",
+      "geocodeQuery": "新北市板橋區民生路一段52號",
+      "notes": ""
+    },
+    "S258": {
+      "id": "S258",
+      "displayName": "民生路二段226巷6弄前",
+      "landmark": "近捷運新埔站",
+      "sourceText": "民生路二段226巷6弄前(近新埔捷運站)",
+      "geocodeQuery": "新北市板橋區民生路二段226巷6弄",
+      "notes": ""
+    },
+    "S259": {
+      "id": "S259",
+      "displayName": "文化路／陽明街口",
+      "landmark": "過路口",
+      "sourceText": "過陽明路口",
+      "geocodeQuery": "新北市板橋區文化路 陽明街口",
+      "notes": "依上排「文化路(新埔捷運站)→民權路」補全；板橋此處道路為陽明街。"
+    },
+    "S260": {
+      "id": "S260",
+      "displayName": "文化路一段143號",
+      "landmark": "土地銀行",
+      "sourceText": "文化路一段143號(土地銀行)",
+      "geocodeQuery": "新北市板橋區文化路一段143號",
+      "notes": ""
+    },
+    "S261": {
+      "id": "S261",
+      "displayName": "民族路／文化路一段32巷口",
+      "landmark": "往民權路／縣民大道",
+      "sourceText": "民族路與文化路一段32巷口(民權路右轉縣民大道)",
+      "geocodeQuery": "新北市板橋區民族路 文化路一段32巷口",
+      "notes": "保留PDF交叉路口文字；上排用於確認板橋府中方向。"
+    },
+    "S262": {
+      "id": "S262",
+      "displayName": "中正路／中興街口",
+      "landmark": "",
+      "sourceText": "中正路中興路口",
+      "geocodeQuery": "新北市中和區中正路 中興街口",
+      "notes": "上排寫「中興街口」，以此作定位。"
+    },
+    "S263": {
+      "id": "S263",
+      "displayName": "捷運景安站對面",
+      "landmark": "",
+      "sourceText": "景安捷運站對面",
+      "geocodeQuery": "新北市中和區捷運景安站",
+      "notes": ""
+    },
+    "S264": {
+      "id": "S264",
+      "displayName": "智光商工",
+      "landmark": "",
+      "sourceText": "智光商工",
+      "geocodeQuery": "新北市永和區智光商工",
+      "notes": ""
+    },
+    "S265": {
+      "id": "S265",
+      "displayName": "中正路／民治街口（麥當勞）",
+      "landmark": "",
+      "sourceText": "民治街口麥當勞",
+      "geocodeQuery": "新北市永和區中正路 民治街口 麥當勞",
+      "notes": "依上排進入永和中正路後補全道路。"
+    },
+    "S266": {
+      "id": "S266",
+      "displayName": "中正路／永貞路口",
+      "landmark": "",
+      "sourceText": "永貞路口",
+      "geocodeQuery": "新北市永和區中正路 永貞路口",
+      "notes": "依上排永和中正路→永和路補全。"
+    },
+    "S267": {
+      "id": "S267",
+      "displayName": "捷運頂溪站",
+      "landmark": "終點站",
+      "sourceText": "頂溪捷運-站口",
+      "geocodeQuery": "新北市永和區捷運頂溪站",
+      "notes": ""
+    },
+    "S268": {
+      "id": "S268",
+      "displayName": "安和路一段／吉安路口",
+      "landmark": "公車站牌",
+      "sourceText": "安和路一段過吉安路口公車站牌",
+      "geocodeQuery": "新北市新店區安和路一段 吉安路口",
+      "notes": ""
+    },
+    "S269": {
+      "id": "S269",
+      "displayName": "景新街 寶島鐘錶",
+      "landmark": "寶島鐘錶眼鏡",
+      "sourceText": "景新路上寶島鐘錶眼鏡",
+      "geocodeQuery": "新北市中和區景新街 寶島鐘錶",
+      "notes": "上排行駛路線寫「中和景新街」，以景新街作定位。"
+    },
+    "S270": {
+      "id": "S270",
+      "displayName": "中正路／連城路口",
+      "landmark": "",
+      "sourceText": "連城路口",
+      "geocodeQuery": "新北市中和區中正路 連城路口",
+      "notes": "上排終點脈絡為中正路/連城路。"
+    },
+    "S271": {
+      "id": "S271",
+      "displayName": "捷運永寧站2號出口",
+      "landmark": "",
+      "sourceText": "永寧捷運站2號出口",
+      "geocodeQuery": "新北市土城區捷運永寧站2號出口",
+      "notes": ""
+    },
+    "S272": {
+      "id": "S272",
+      "displayName": "金城路／和平路口",
+      "landmark": "",
+      "sourceText": "金城路與和平路口",
+      "geocodeQuery": "新北市土城區金城路 和平路口",
+      "notes": ""
+    },
+    "S273": {
+      "id": "S273",
+      "displayName": "金城路／裕民路口",
+      "landmark": "",
+      "sourceText": "金城路與裕民路口",
+      "geocodeQuery": "新北市土城區金城路 裕民路口",
+      "notes": ""
+    },
+    "S274": {
+      "id": "S274",
+      "displayName": "青雲路101號",
+      "landmark": "信峰機車行",
+      "sourceText": "青雲路101號(信峰機車行)",
+      "geocodeQuery": "新北市土城區青雲路101號",
+      "notes": ""
+    },
+    "S275": {
+      "id": "S275",
+      "displayName": "國慶路164號",
+      "landmark": "",
+      "sourceText": "國慶路164號",
+      "geocodeQuery": "新北市板橋區國慶路164號",
+      "notes": ""
+    },
+    "S276": {
+      "id": "S276",
+      "displayName": "國慶路256號",
+      "landmark": "",
+      "sourceText": "國慶路256號",
+      "geocodeQuery": "新北市板橋區國慶路256號",
+      "notes": ""
+    },
+    "S277": {
+      "id": "S277",
+      "displayName": "中興路199號",
+      "landmark": "炬工實業有限公司",
+      "sourceText": "五股中興路199號(炬工實業也限公司)",
+      "geocodeQuery": "新北市五股區中興路199號",
+      "notes": ""
+    },
+    "S278": {
+      "id": "S278",
+      "displayName": "永安南路二段／16巷口",
+      "landmark": "",
+      "sourceText": "永安南路二段 永安南路二段16巷",
+      "geocodeQuery": "新北市蘆洲區永安南路二段16巷口",
+      "notes": ""
+    },
+    "S279": {
+      "id": "S279",
+      "displayName": "中山一路207號",
+      "landmark": "中國信託",
+      "sourceText": "中山一路207號（中國信託）",
+      "geocodeQuery": "新北市蘆洲區中山一路207號",
+      "notes": ""
+    },
+    "S280": {
+      "id": "S280",
+      "displayName": "中山一路23號",
+      "landmark": "東南旅遊",
+      "sourceText": "中山一路23號（東南旅遊）",
+      "geocodeQuery": "新北市蘆洲區中山一路23號",
+      "notes": ""
+    },
+    "S281": {
+      "id": "S281",
+      "displayName": "三和路四段398-3號",
+      "landmark": "麥當勞",
+      "sourceText": "三和路四段398-3號（麥當勞）",
+      "geocodeQuery": "新北市三重區三和路四段398-3號",
+      "notes": ""
+    },
+    "S282": {
+      "id": "S282",
+      "displayName": "三和路三段168號",
+      "landmark": "京鼎當舖",
+      "sourceText": "三和路三段168號（京鼎當舖）",
+      "geocodeQuery": "新北市三重區三和路三段168號",
+      "notes": ""
     }
   },
   "routes": [
@@ -2530,6 +3634,933 @@
         {
           "locationId": "S140",
           "time": "07:32"
+        }
+      ]
+    },
+    {
+      "id": "E001",
+      "number": 1,
+      "name": "基隆",
+      "type": "evening",
+      "vehicleType": "",
+      "effectiveDate": "2026-06-23",
+      "routeDescription": "內湖辦公區 → 汐止(前門) → 沿上班路線回程",
+      "notes": "發車：內湖 PM5:25；內湖辦公區【新竹線】同仁請搭乘此線至汐止轉乘【新竹線】下班車。",
+      "stops": [
+        {
+          "locationId": "S145",
+          "time": "17:25"
+        },
+        {
+          "locationId": "S146"
+        },
+        {
+          "locationId": "S147",
+          "notes": "依上排行駛路線「汐止→基隆」補全為新台五路／百三街口。"
+        },
+        {
+          "locationId": "S148"
+        },
+        {
+          "locationId": "S030"
+        },
+        {
+          "locationId": "S149"
+        },
+        {
+          "locationId": "S150"
+        },
+        {
+          "locationId": "S028",
+          "notes": "依上班基隆線既有站點補全地址。"
+        },
+        {
+          "locationId": "S029",
+          "notes": "依上班基隆線既有站點補全地址。"
+        }
+      ]
+    },
+    {
+      "id": "E002",
+      "number": 2,
+      "name": "中壢直達",
+      "type": "evening",
+      "vehicleType": "",
+      "effectiveDate": "2026-06-23",
+      "routeDescription": "汐止 → (不前往內湖辦公區) → 中壢交流道 → 原中壢辦公區東園路 → 南園路 → 延平路 → 元化路 → 公七停車場(中央東路88號「錢櫃KTV」對面) → 延平路 → 環南路 → 中豐路 → 沿上班路線回程",
+      "notes": "發車：汐止 PM5:25",
+      "stops": [
+        {
+          "locationId": "S146",
+          "time": "17:25"
+        },
+        {
+          "locationId": "S017"
+        },
+        {
+          "locationId": "S016"
+        },
+        {
+          "locationId": "S151"
+        },
+        {
+          "locationId": "S152"
+        },
+        {
+          "locationId": "S153"
+        },
+        {
+          "locationId": "S154"
+        },
+        {
+          "locationId": "S155"
+        },
+        {
+          "locationId": "S010"
+        }
+      ]
+    },
+    {
+      "id": "E003",
+      "number": 3,
+      "name": "中壢",
+      "type": "evening",
+      "vehicleType": "",
+      "effectiveDate": "2026-06-23",
+      "routeDescription": "汐止 → 內湖辦公區 → 桃園南崁交流道(不停靠南崁) → 中壢交流道 → 原中壢辦公區東園路 → 南園路 → 延平路 → 元化路 → 公七停車場(中央東路88號「錢櫃KTV」對面) → 延平路 → 環南路 → 中豐路 → 沿上班路線回程",
+      "notes": "發車：汐止 PM5:25",
+      "stops": [
+        {
+          "locationId": "S146",
+          "time": "17:25"
+        },
+        {
+          "locationId": "S145"
+        },
+        {
+          "locationId": "S156"
+        },
+        {
+          "locationId": "S157"
+        },
+        {
+          "locationId": "S158"
+        },
+        {
+          "locationId": "S153"
+        },
+        {
+          "locationId": "S154"
+        }
+      ]
+    },
+    {
+      "id": "E004",
+      "number": 4,
+      "name": "桃園",
+      "type": "evening",
+      "vehicleType": "",
+      "effectiveDate": "2026-06-23",
+      "routeDescription": "汐止 → 內湖辦公區 → 南崁交流道(不停靠南崁) → 經國路 → 慈文路 → 民生路 → 成功路 → 民權路 → 復興路 → 中山路 → 終點站(中山路龍安街口)",
+      "notes": "發車：汐止 PM5:25",
+      "stops": [
+        {
+          "locationId": "S146",
+          "time": "17:25"
+        },
+        {
+          "locationId": "S145"
+        },
+        {
+          "locationId": "S159"
+        },
+        {
+          "locationId": "S160"
+        },
+        {
+          "locationId": "S161"
+        },
+        {
+          "locationId": "S162"
+        },
+        {
+          "locationId": "S163"
+        },
+        {
+          "locationId": "S164",
+          "notes": "依上排行駛路線「民生路→成功路」補全為成功路／民生路口。"
+        },
+        {
+          "locationId": "S165"
+        },
+        {
+          "locationId": "S166",
+          "notes": "依上排行駛路線「民權路→復興路→中山路」補上復興路脈絡。"
+        },
+        {
+          "locationId": "S167"
+        },
+        {
+          "locationId": "S168"
+        }
+      ]
+    },
+    {
+      "id": "E005",
+      "number": 5,
+      "name": "南崁",
+      "type": "evening",
+      "vehicleType": "",
+      "effectiveDate": "2026-06-23",
+      "routeDescription": "汐止 → 內湖辦公區 → 桃園南崁交流道(僅停南崁)",
+      "notes": "發車：汐止 PM5:25",
+      "stops": [
+        {
+          "locationId": "S146",
+          "time": "17:25"
+        },
+        {
+          "locationId": "S145"
+        },
+        {
+          "locationId": "S169"
+        }
+      ]
+    },
+    {
+      "id": "E006",
+      "number": 6,
+      "name": "林口",
+      "type": "evening",
+      "vehicleType": "",
+      "effectiveDate": "2026-06-23",
+      "routeDescription": "汐止 → 內湖辦公區 → 林口第二交流道，停靠林口上班停靠點",
+      "notes": "發車：汐止 PM5:25；若當日無預約紀錄，車輛將不停靠內湖辦公區直接返程。",
+      "stops": [
+        {
+          "locationId": "S146",
+          "time": "17:25"
+        },
+        {
+          "locationId": "S145",
+          "notes": "依上排行駛路線與備註加入；無預約則不停靠。"
+        },
+        {
+          "locationId": "S170",
+          "notes": "依上排行駛路線補全林口第二交流道周邊道路脈絡。"
+        },
+        {
+          "locationId": "S171"
+        },
+        {
+          "locationId": "S024"
+        }
+      ]
+    },
+    {
+      "id": "E007",
+      "number": 7,
+      "name": "新竹",
+      "type": "evening",
+      "vehicleType": "",
+      "effectiveDate": "2026-06-23",
+      "routeDescription": "汐止 → 沿【新竹線】與【竹北中壢線】上班路線回程(行駛中山高)；因東大路禁止右轉，須直行南大路至終站教育大學",
+      "notes": "發車：汐止 PM5:35；需等待內湖同仁；內湖同仁請搭乘 PM5:25【基隆線】至汐止轉乘此線。",
+      "stops": [
+        {
+          "locationId": "S146",
+          "time": "17:35"
+        },
+        {
+          "locationId": "S018"
+        },
+        {
+          "locationId": "S172"
+        },
+        {
+          "locationId": "S173"
+        },
+        {
+          "locationId": "S174"
+        },
+        {
+          "locationId": "S175"
+        },
+        {
+          "locationId": "S176"
+        },
+        {
+          "locationId": "S177"
+        }
+      ]
+    },
+    {
+      "id": "E008",
+      "number": 8,
+      "name": "龍潭/大溪",
+      "type": "evening",
+      "vehicleType": "",
+      "effectiveDate": "2026-06-23",
+      "routeDescription": "汐止 → 沿上班路線回程 → 大溪交流道 → 龍潭交流道",
+      "notes": "發車：汐止 PM5:35；需等待內湖同仁；內湖同仁請搭乘 PM5:25【基隆線】至汐止轉乘此線。",
+      "stops": [
+        {
+          "locationId": "S146",
+          "time": "17:35"
+        },
+        {
+          "locationId": "S178"
+        },
+        {
+          "locationId": "S179"
+        }
+      ]
+    },
+    {
+      "id": "E009",
+      "number": 9,
+      "name": "三重",
+      "type": "evening",
+      "vehicleType": "",
+      "effectiveDate": "2026-06-23",
+      "routeDescription": "宏碁大樓 → 三重交流道 → 重陽路(沿重陽路直行) → 中正北路",
+      "notes": "發車：汐止 PM5:35",
+      "stops": [
+        {
+          "locationId": "S146",
+          "time": "17:35"
+        },
+        {
+          "locationId": "S180",
+          "notes": "依上排行駛路線補全為重陽路／忠孝路口。"
+        },
+        {
+          "locationId": "S181",
+          "notes": "PDF未提供門牌，使用店名作為 Google Maps 定位搜尋文字。"
+        }
+      ]
+    },
+    {
+      "id": "E010",
+      "number": 10,
+      "name": "蘆洲",
+      "type": "evening",
+      "vehicleType": "",
+      "effectiveDate": "2026-06-23",
+      "routeDescription": "宏碁大樓 → 汐五高架 → 五股下交流道 → 永安大橋 → 中原路 → 長榮路 → 三民路",
+      "notes": "發車：汐止 PM5:35",
+      "stops": [
+        {
+          "locationId": "S146",
+          "time": "17:35"
+        },
+        {
+          "locationId": "S182"
+        },
+        {
+          "locationId": "S123"
+        },
+        {
+          "locationId": "S183"
+        },
+        {
+          "locationId": "S184"
+        },
+        {
+          "locationId": "S124"
+        },
+        {
+          "locationId": "S185"
+        }
+      ]
+    },
+    {
+      "id": "E011",
+      "number": 11,
+      "name": "新莊/板橋",
+      "type": "evening",
+      "vehicleType": "",
+      "effectiveDate": "2026-06-23",
+      "routeDescription": "宏碁大樓 → 中山高 → 五股交流道 → 中平路 → 幸福路 → 思源路 → 大漢橋 → 民生路 → 文化一路 → 板橋新埔站 → 議會門口",
+      "notes": "發車：汐止 PM5:35",
+      "stops": [
+        {
+          "locationId": "S146",
+          "time": "17:35"
+        },
+        {
+          "locationId": "S186"
+        },
+        {
+          "locationId": "S187"
+        },
+        {
+          "locationId": "S188"
+        },
+        {
+          "locationId": "S189",
+          "notes": "PDF下排寫「辛福路」；依上排行駛路線修正定位為「幸福路／福壽街口」。"
+        },
+        {
+          "locationId": "S190"
+        }
+      ]
+    },
+    {
+      "id": "E012",
+      "number": 12,
+      "name": "新莊",
+      "type": "evening",
+      "vehicleType": "",
+      "effectiveDate": "2026-06-23",
+      "routeDescription": "汐止 → 五股交流道 → 中環路 → 左轉新泰路 → 右轉中正路(沿中正路直行) → 終點站：輔大站",
+      "notes": "發車：汐止 PM5:35",
+      "stops": [
+        {
+          "locationId": "S146",
+          "time": "17:35"
+        },
+        {
+          "locationId": "S191"
+        },
+        {
+          "locationId": "S192"
+        },
+        {
+          "locationId": "S193"
+        },
+        {
+          "locationId": "S194"
+        },
+        {
+          "locationId": "S195"
+        }
+      ]
+    },
+    {
+      "id": "E013",
+      "number": 13,
+      "name": "士林/天母",
+      "type": "evening",
+      "vehicleType": "",
+      "effectiveDate": "2026-06-23",
+      "routeDescription": "宏碁大樓 → 重慶交流道 → 停靠士林捷運站 → 行駛中山北路直行 → 轉忠誠路 → 轉天母東西路 → 天母北路 → 致遠路 → 東華街",
+      "notes": "發車：汐止 PM5:35",
+      "stops": [
+        {
+          "locationId": "S146",
+          "time": "17:35"
+        },
+        {
+          "locationId": "S196"
+        },
+        {
+          "locationId": "S197"
+        },
+        {
+          "locationId": "S198"
+        },
+        {
+          "locationId": "S199"
+        },
+        {
+          "locationId": "S200"
+        },
+        {
+          "locationId": "S201"
+        },
+        {
+          "locationId": "S202"
+        },
+        {
+          "locationId": "S203"
+        }
+      ]
+    },
+    {
+      "id": "E014",
+      "number": 14,
+      "name": "圓山捷運站",
+      "type": "evening",
+      "vehicleType": "",
+      "effectiveDate": "2026-06-23",
+      "routeDescription": "宏碁大樓 → 重慶交流道 → 圓山捷運站 → 民權西路 → 民權西路捷運站(終點站)",
+      "notes": "發車：汐止 PM5:35",
+      "stops": [
+        {
+          "locationId": "S146",
+          "time": "17:35"
+        },
+        {
+          "locationId": "S204",
+          "notes": "依上排行駛路線補全為重慶北路／酒泉街口。"
+        },
+        {
+          "locationId": "S205"
+        },
+        {
+          "locationId": "S206"
+        }
+      ]
+    },
+    {
+      "id": "E015",
+      "number": 15,
+      "name": "內湖/劍潭",
+      "type": "evening",
+      "vehicleType": "",
+      "effectiveDate": "2026-06-23",
+      "routeDescription": "宏碁大樓 → 成功交流道 → 行駛內湖路直行 → 左行北安路 → 接中山北路往劍潭捷運站方向 → 劍潭捷運站",
+      "notes": "發車：汐止 PM5:35",
+      "stops": [
+        {
+          "locationId": "S146",
+          "time": "17:35"
+        },
+        {
+          "locationId": "S207"
+        },
+        {
+          "locationId": "S208"
+        },
+        {
+          "locationId": "S209"
+        },
+        {
+          "locationId": "S210",
+          "notes": "PDF未提供門牌，使用道路＋地標定位。"
+        },
+        {
+          "locationId": "S211",
+          "notes": "PDF未提供門牌，使用道路＋地標定位。"
+        },
+        {
+          "locationId": "S212"
+        },
+        {
+          "locationId": "S213"
+        },
+        {
+          "locationId": "S214",
+          "notes": "依上排行駛路線補上內湖路脈絡。"
+        },
+        {
+          "locationId": "S215"
+        },
+        {
+          "locationId": "S216"
+        },
+        {
+          "locationId": "S217"
+        },
+        {
+          "locationId": "S043"
+        }
+      ]
+    },
+    {
+      "id": "E016",
+      "number": 16,
+      "name": "南京",
+      "type": "evening",
+      "vehicleType": "",
+      "effectiveDate": "2026-06-23",
+      "routeDescription": "宏碁大樓 → 中山高 → 麥帥橋 → 沿南京東路直行 → 接南京西路左轉承德路 → 終點站：承德路長安西路口",
+      "notes": "發車：汐止 PM5:35",
+      "stops": [
+        {
+          "locationId": "S146",
+          "time": "17:35"
+        },
+        {
+          "locationId": "S218",
+          "notes": "依上排行駛路線「沿南京東路直行」補全。"
+        },
+        {
+          "locationId": "S219"
+        },
+        {
+          "locationId": "S220"
+        },
+        {
+          "locationId": "S221",
+          "notes": "PDF文字「南京的東路」依道路名稱修正顯示為南京東路。"
+        },
+        {
+          "locationId": "S222"
+        },
+        {
+          "locationId": "S223"
+        },
+        {
+          "locationId": "S224"
+        },
+        {
+          "locationId": "S225"
+        }
+      ]
+    },
+    {
+      "id": "E017",
+      "number": 17,
+      "name": "公館景美",
+      "type": "evening",
+      "vehicleType": "",
+      "effectiveDate": "2026-06-23",
+      "routeDescription": "宏碁大樓 → 北二高辛亥交流道(平面) → 辛亥路 → 左轉新生南路(台大正門口對面) → 左轉羅斯福路直行 → 經公館捷運站 → 萬隆捷運站 → 景美捷運站 → 大坪林捷運站",
+      "notes": "發車：汐止 PM5:35",
+      "stops": [
+        {
+          "locationId": "S146",
+          "time": "17:35"
+        },
+        {
+          "locationId": "S226",
+          "notes": "依上排行駛路線補上辛亥路脈絡。"
+        },
+        {
+          "locationId": "S227",
+          "notes": "下排僅寫「過復興南路」；依上排當時車輛行駛辛亥路，補全為辛亥路／復興南路口。"
+        },
+        {
+          "locationId": "S228"
+        },
+        {
+          "locationId": "S229"
+        },
+        {
+          "locationId": "S230",
+          "notes": "依上排「左轉羅斯福路直行」補全。"
+        },
+        {
+          "locationId": "S231",
+          "notes": "依上排「羅斯福路直行」補全。"
+        },
+        {
+          "locationId": "S232"
+        },
+        {
+          "locationId": "S233"
+        }
+      ]
+    },
+    {
+      "id": "E018",
+      "number": 18,
+      "name": "木柵景美",
+      "type": "evening",
+      "vehicleType": "",
+      "effectiveDate": "2026-06-23",
+      "routeDescription": "宏碁大樓 → 北二高 → 木柵捷運站 → 萬芳 → 木柵路 → 景美街(景美捷運站)",
+      "notes": "發車：汐止 PM5:35",
+      "stops": [
+        {
+          "locationId": "S146",
+          "time": "17:35"
+        },
+        {
+          "locationId": "S234"
+        },
+        {
+          "locationId": "S235",
+          "notes": "依上排「木柵捷運站→萬芳→木柵路」補全為萬芳路／秀明路口。"
+        },
+        {
+          "locationId": "S236",
+          "notes": "依上排由萬芳銜接木柵路，補全定位脈絡。"
+        },
+        {
+          "locationId": "S237",
+          "notes": "依上排車輛已進入木柵路補全。"
+        },
+        {
+          "locationId": "S238",
+          "notes": "依上排車輛行駛木柵路補全。"
+        },
+        {
+          "locationId": "S239",
+          "notes": "PDF下排文字為「中興路口7-11」；依上排木柵路往景美街的道路連續性，定位搜尋採木柵路／景興路口。PDF原文仍保留供人工核對。"
+        },
+        {
+          "locationId": "S240"
+        }
+      ]
+    },
+    {
+      "id": "E019",
+      "number": 19,
+      "name": "古亭捷運站",
+      "type": "evening",
+      "vehicleType": "",
+      "effectiveDate": "2026-06-23",
+      "routeDescription": "宏碁大樓 → 北二高辛亥交流道(快速地下道) → 接辛亥路 → 右轉羅斯福路經台電大樓捷運站 → 古亭捷運站 → 中正紀念堂捷運站(羅斯福路/南海路口)",
+      "notes": "發車：汐止 PM5:35",
+      "stops": [
+        {
+          "locationId": "S146",
+          "time": "17:35"
+        },
+        {
+          "locationId": "S241"
+        },
+        {
+          "locationId": "S242"
+        },
+        {
+          "locationId": "S243"
+        }
+      ]
+    },
+    {
+      "id": "E020",
+      "number": 20,
+      "name": "忠孝東路線",
+      "type": "evening",
+      "vehicleType": "",
+      "effectiveDate": "2026-06-23",
+      "routeDescription": "宏碁大樓 → 汐止大同路 → 上環東大道 → 下基隆路直行 → 右轉忠孝東路沿路直行 → 至忠孝東路/建國南路交叉口(終點站：忠孝/建國路口)",
+      "notes": "發車：汐止 PM5:35；下排部分站名使用「北路」，定位搜尋文字依上排行駛方向修正為忠孝東路實際相交的南路。",
+      "stops": [
+        {
+          "locationId": "S146",
+          "time": "17:35"
+        },
+        {
+          "locationId": "S244"
+        },
+        {
+          "locationId": "S245",
+          "notes": "上排明確沿忠孝東路往西，該交叉口道路為光復南路；保留PDF原文於「PDF原文」。"
+        },
+        {
+          "locationId": "S246",
+          "notes": "依上排行駛忠孝東路脈絡修正定位道路方向。"
+        },
+        {
+          "locationId": "S247",
+          "notes": "依上下排脈絡將大安街站定位於忠孝東路／大安路口附近。"
+        },
+        {
+          "locationId": "S248",
+          "notes": "依上排行駛忠孝東路脈絡修正定位道路方向。"
+        },
+        {
+          "locationId": "S249",
+          "notes": "上排明確寫「忠孝東路/建國南路交叉口」，以此作定位。"
+        }
+      ]
+    },
+    {
+      "id": "E021",
+      "number": 21,
+      "name": "昆陽",
+      "type": "evening",
+      "vehicleType": "",
+      "effectiveDate": "2026-06-23",
+      "routeDescription": "宏碁大樓 → 南港路 → 昆陽捷運站 → 忠孝東路(終點站：消防局)",
+      "notes": "發車：汐止 PM5:35",
+      "stops": [
+        {
+          "locationId": "S146",
+          "time": "17:35"
+        },
+        {
+          "locationId": "S250"
+        },
+        {
+          "locationId": "S251"
+        },
+        {
+          "locationId": "S252"
+        },
+        {
+          "locationId": "S253"
+        },
+        {
+          "locationId": "S254"
+        }
+      ]
+    },
+    {
+      "id": "E022",
+      "number": 22,
+      "name": "板橋/新埔",
+      "type": "evening",
+      "vehicleType": "",
+      "effectiveDate": "2026-06-23",
+      "routeDescription": "宏碁大樓 → 經中和板橋交流道(高架快速) → 中正路/中山路口 → 板橋民生路 → 文化路(新埔捷運站) → 民權路 → 縣民大道 → 終點站：府中捷運站",
+      "notes": "發車：汐止 PM5:35",
+      "stops": [
+        {
+          "locationId": "S146",
+          "time": "17:35"
+        },
+        {
+          "locationId": "S255",
+          "notes": "PDF未提供門牌；依上排進入中和中正路/中山路走廊，加上中和區域定位。"
+        },
+        {
+          "locationId": "S256",
+          "notes": "PDF未提供門牌；依上排行駛區域加上中和區定位。"
+        },
+        {
+          "locationId": "S257"
+        },
+        {
+          "locationId": "S258"
+        },
+        {
+          "locationId": "S259",
+          "notes": "依上排「文化路(新埔捷運站)→民權路」補全；板橋此處道路為陽明街。"
+        },
+        {
+          "locationId": "S260"
+        },
+        {
+          "locationId": "S261",
+          "notes": "保留PDF交叉路口文字；上排用於確認板橋府中方向。"
+        }
+      ]
+    },
+    {
+      "id": "E023",
+      "number": 23,
+      "name": "中和/永和",
+      "type": "evening",
+      "vehicleType": "",
+      "effectiveDate": "2026-06-23",
+      "routeDescription": "宏碁大樓 → 經中和交流道 → (中和方向)中正路(僅停錦和路口/中興街口) → 景安捷運站(對面) → 景平路左轉安平路 → 安和路 → 永和中正路 → 永和路 → 終點站：頂溪捷運站",
+      "notes": "發車：汐止 PM5:35",
+      "stops": [
+        {
+          "locationId": "S146",
+          "time": "17:35"
+        },
+        {
+          "locationId": "S131",
+          "notes": "上排明確寫中正路僅停「錦和路口/中興街口」；沿用上班車既有錦和路口站點定位。"
+        },
+        {
+          "locationId": "S262",
+          "notes": "上排寫「中興街口」，以此作定位。"
+        },
+        {
+          "locationId": "S263"
+        },
+        {
+          "locationId": "S264"
+        },
+        {
+          "locationId": "S265",
+          "notes": "依上排進入永和中正路後補全道路。"
+        },
+        {
+          "locationId": "S266",
+          "notes": "依上排永和中正路→永和路補全。"
+        },
+        {
+          "locationId": "S267"
+        }
+      ]
+    },
+    {
+      "id": "E024",
+      "number": 24,
+      "name": "中和",
+      "type": "evening",
+      "vehicleType": "",
+      "effectiveDate": "2026-06-23",
+      "routeDescription": "宏碁大樓 → 安坑交流道 → 新店安康路 → 新店安和路 → 中和景新街 → 景安捷運站 → 景平路 → 中正路/連城路",
+      "notes": "發車：汐止 PM5:35",
+      "stops": [
+        {
+          "locationId": "S146",
+          "time": "17:35"
+        },
+        {
+          "locationId": "S268"
+        },
+        {
+          "locationId": "S128"
+        },
+        {
+          "locationId": "S269",
+          "notes": "上排行駛路線寫「中和景新街」，以景新街作定位。"
+        },
+        {
+          "locationId": "S263"
+        },
+        {
+          "locationId": "S270",
+          "notes": "上排終點脈絡為中正路/連城路。"
+        }
+      ]
+    },
+    {
+      "id": "E025",
+      "number": 25,
+      "name": "土城",
+      "type": "evening",
+      "vehicleType": "",
+      "effectiveDate": "2026-06-23",
+      "routeDescription": "宏碁大樓 → 北二高 → 土城交流道 → 金城路 → 青雲路 → 信義路 → 國慶路",
+      "notes": "發車：汐止 PM5:35",
+      "stops": [
+        {
+          "locationId": "S146",
+          "time": "17:35"
+        },
+        {
+          "locationId": "S271"
+        },
+        {
+          "locationId": "S272"
+        },
+        {
+          "locationId": "S273"
+        },
+        {
+          "locationId": "S274"
+        },
+        {
+          "locationId": "S275"
+        },
+        {
+          "locationId": "S276"
+        }
+      ]
+    },
+    {
+      "id": "E026",
+      "number": 26,
+      "name": "三重/蘆洲",
+      "type": "evening",
+      "vehicleType": "",
+      "effectiveDate": "2026-06-23",
+      "routeDescription": "宏碁大樓 → 汐五高架 → 五股下交流道 → 新五路二段 → 永安大橋 → 永安南路 → 中山一路 → 三民路 → 三和路 → 重陽路(終點站：三和/重陽路口)",
+      "notes": "發車：汐止 PM5:35",
+      "stops": [
+        {
+          "locationId": "S146",
+          "time": "17:35"
+        },
+        {
+          "locationId": "S277"
+        },
+        {
+          "locationId": "S278"
+        },
+        {
+          "locationId": "S279"
+        },
+        {
+          "locationId": "S280"
+        },
+        {
+          "locationId": "S281"
+        },
+        {
+          "locationId": "S282"
         }
       ]
     }

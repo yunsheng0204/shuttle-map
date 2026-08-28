@@ -11,35 +11,36 @@
     <div>
       <p class="eyebrow">Shuttle Bus Map · Prototype</p>
       <h1>公司交通車路線圖</h1>
-      <p class="subtitle">目前實作：上班車第 1–60 線｜Excel 統一維護｜Google Maps 自動定位</p>
+      <p class="subtitle">上班車 60 條｜下班車 26 條｜Excel 統一維護｜Google Maps 自動定位</p>
     </div>
-    <div class="top-note">選擇路線時，由 Google Maps 依「定位搜尋文字」自動找站點；Excel 仍是唯一維護來源。</div>
+    <div class="top-note">下班車定位除了 PDF 下排停靠站，也會使用上排行駛路線補足道路／路口脈絡；PDF 原文保留在每個站點下方供核對。</div>
   </header>
 
   <main class="layout">
     <aside class="sidebar" aria-label="路線清單">
       <div class="vehicle-tabs" role="tablist" aria-label="交通車類型">
-        <button class="tab active" type="button" role="tab" aria-selected="true">上班車</button>
-        <button class="tab" type="button" disabled title="下一階段實作">下班車</button>
+        <button class="tab active" type="button" role="tab" aria-selected="true" data-route-type="morning">上班車</button>
+        <button class="tab" type="button" role="tab" aria-selected="false" data-route-type="evening">下班車</button>
         <button class="tab" type="button" disabled title="下一階段實作">加班車</button>
       </div>
 
-      <label class="route-select-label" for="routeSelect">選擇上班路線</label>
-      <select id="routeSelect" class="route-select" aria-label="選擇上班交通車路線">
+      <label class="route-select-label" id="routeSelectLabel" for="routeSelect">選擇上班路線</label>
+      <select id="routeSelect" class="route-select" aria-label="選擇交通車路線">
         <option value="">讀取路線中…</option>
       </select>
 
-      <div class="route-summary">
-        共 <strong id="routeCount">60</strong> 條上班路線
+      <div class="route-summary" id="routeSummary">
+        共 <strong id="routeCount">0</strong> 條路線
       </div>
     </aside>
 
     <section class="content">
       <section class="route-head">
         <div>
-          <div class="route-kicker" id="routeKicker">上班車</div>
+          <div class="route-kicker" id="routeKicker">交通車</div>
           <h2 id="routeTitle">讀取中…</h2>
           <p class="route-description" id="routeDescription"></p>
+          <p class="route-note" id="routeNote" hidden></p>
         </div>
       </section>
 
