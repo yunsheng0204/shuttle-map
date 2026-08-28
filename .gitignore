@@ -1,6 +1,3 @@
-# Local Google Maps browser key used only for local testing.
-config/google-maps-config.local.json
-
 # Python/cache artifacts
 __pycache__/
 *.pyc
